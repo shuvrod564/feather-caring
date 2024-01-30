@@ -1,0 +1,141 @@
+
+  
+/*---- Header section styles ----------*/
+.header__wrapper { 
+    min-height: 620px;
+    background-color: rgba(136, 186, 44, 0.36);
+    border: 1px solid rgba(112, 112, 112, 0.37);
+
+    .h1 {
+        line-height: 1;
+    }
+    .text__bold{
+        font-size: 4.25rem;
+    }  
+}
+
+@media (max-width:1399px) {
+    .header__wrapper {
+        min-height: 550px;
+    }
+}
+
+@media (max-width:575px) {
+    .header__wrapper {
+        .h1 { font-size: 2rem;line-height: 1.2; }
+        .text__bold { font-size: 3.25rem; }
+    }
+}
+ 
+
+.service__card{
+    
+    background-color: #F0F0F0;
+    transition: all 0.5s ease-in-out;
+    .title__box{
+        min-height: 16.562rem;
+    }
+    .title{
+        color: var(--brand);
+    }
+    &:hover{
+        background-color: var(--brand);
+      
+        .title{
+            color: var(--white);
+        }
+        .desc{
+            color: var(--white);
+        }
+    }
+}
+.courseCarousel {
+    .owl-stage { 
+        display: flex;
+        .owl-item{
+            display: flex;
+        }
+    }
+}
+ 
+.owl-dots {
+    text-align: center;padding-top: .5rem;
+    .owl-dot {
+        width: 13px;height: 13px;border: 1px solid var(--brand) !important;border-radius: 50% !important;
+        margin: 4px;background-color: var(--brand) !important;
+
+        &.active {
+            width: 60px;
+            background-color: var(--secondary) !important;border-color: var(--secondary) !important;
+            border-radius: 1rem !important;
+        }
+    }
+}
+
+.choose__care__wraper{
+    .choose__box{
+        width: 4.5rem;
+        height: 4.5rem; 
+        background-color: var(--brand);
+        border-radius: 50%;
+    }
+    .choose__content{
+        width: calc(100% -  4.5rem);
+    }
+}
+
+
+.our__service{
+    background-color: rgba(81, 29, 99, 0.05);
+    border: 1px solid rgba(112, 112, 112, 0.05);
+    .service__caption{
+        padding: 1.375rem 2.375rem;
+        border-radius: 1.375rem;
+    }
+    .services__box{
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 50%;
+        background-color: #8835A5;
+    }
+}
+ 
+@media (max-width:575px) {
+    .our__service .service__caption {
+        padding: 1.375rem 1.375rem;
+    }
+}
+
+ 
+.testimonialSlider{
+     
+    .owl-nav {
+        position: absolute;bottom: -3.25rem;right: 2rem; 
+      
+        .owl-next, .owl-prev { 
+            width: 2.5rem;height: 2.5rem;border: 0.5px solid #60B14E !important;border-radius: 50%;
+            background-color: var(--brand) !important;
+            justify-content: center;align-items: center;margin: .2rem;
+            display:inline-flex;
+
+            img {
+                height: 1.25rem;width: auto;  
+            }
+
+            &:hover {
+                background-color: #e9e9e9 !important;
+            }
+        } 
+    } 
+}
+
+@media (min-width:992px) {
+    .testi__slider__box__right__aliged {
+        position: absolute;top: 0;left: 0%;
+        width: calc(72vw - 20px);
+    }
+}
+
+.blog__card{
+    border: 1px solid #C4C4C4;
+}

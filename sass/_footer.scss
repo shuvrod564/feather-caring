@@ -1,0 +1,118 @@
+.contact__card {
+    .icon { width: 2rem; 
+        img { height: 2rem; &.sm { height: 2rem; } }
+    }
+    .caption {
+        width: calc(100% - 2rem);padding-left: .5rem;
+    }
+}
+footer {    
+    background-color: #000;
+    padding: 3rem 0 0rem 0;
+ 
+    a { 
+        color: #FFFFFF;
+        text-transform: capitalize;   
+        font-size: .937rem; 
+      
+        &:hover { 
+            text-decoration: underline;color: var(--secondary);
+        } 
+    }
+    
+    .border-top { border-color: rgba(255, 255, 255, 0.3) !important;  }
+
+   .copyright__wrapp { 
+        background-color: #000;
+    }
+ 
+}
+.social__links {
+    
+    li {
+        margin-bottom: 0; 
+        a {
+            width: 2.5rem;
+            height: 2.5rem;border-radius: 3px;
+            background-color: var(--white); 
+
+            svg { width: 1rem;height: 1rem;fill: var(--brand-deep); }
+
+            &:hover, &:focus {
+                background-color: var(--secondary);color: var(--white);
+
+                svg {
+                    fill: white;
+                }
+            }
+        } 
+    }
+    &.footer {
+        li a {
+            background-color: var(--dark);
+            &:hover, &:focus {
+                background-color: var(--brand);color: var(--white);
+            }
+        }
+    }
+}
+
+@media (min-width:768px) {
+    .social__links {
+        width: 104px;
+    }
+}
+
+// .social__links {
+//     &.footer { max-width: 260px; }
+//     li {
+//         margin-bottom: 0; 
+//         a {
+//             width: 2rem;
+//             height: 2rem;border-radius: 3px;
+//             background-color: var(--white);
+//             color: var(--white);
+
+//             svg { width: 1rem;height: 1rem; 
+//                 path {
+//                     fill: var(--dark);
+//                 }
+//             }
+
+//             &:hover, &:focus {
+//                 background-color: #C4E538;color: var(--white);
+//             }
+//         }
+
+//         &:not(:first-child) {
+//             margin-left: .5rem;
+//         }
+//     } 
+// }
+
+
+/*---------------------- Back to Top Css --------------*/ 
+.backTop { 
+    bottom: 1rem;
+    right: 1rem;
+    width: 3rem;min-height: auto;
+    height: 3rem; 
+    background-color: var(--brand);
+    z-index: 999; 
+    display: none;border: 2px solid var(--white); 
+ 
+    &:hover, &:focus, &:active { 
+        background-color: var(--dark); 
+    }
+    &.show {
+        display: flex;
+    }
+}
+ 
+@media (max-width: 575.99px) {
+    footer {
+        padding: 1rem 0 0rem 0;
+         
+        .logo img { max-height: 6rem;width: auto; }
+    }
+}

@@ -1,0 +1,186 @@
+
+
+/*====================== Navigation Styles ===================*/
+ 
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+    transform: translateY(0);background-color: rgb(255, 244, 235) !important;
+    transition: all 0.3s ease-in-out; position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    
+    .navbar-brand img { max-height: 5rem; }
+}
+.navbar {     
+    z-index: 999;
+    padding: 0%;
+    
+    .nav-item {  
+        .nav-link {
+            font-size: 1rem;  
+            color: #707070;
+            font-weight: 600; 
+            transition: all .3s ease-in-out; 
+  
+
+            &:hover {
+                color: var(--brand);  
+
+                // .caret { transform: rotate(-180deg); }
+            }  
+
+            
+        }
+        &.active  .nav-link { 
+            // color: var(--yellow);  
+
+            &.btn-primary {
+                color: var(--white);
+                background-color: var(--dark);
+            } 
+        } 
+    } 
+    
+    .dropdown {  
+        -webkit-appearance:none;
+        .dropdown-menu { 
+            width: 100%; 
+            min-width: 25rem; 
+            transition: all .3s ease;
+            transform: scaleY(0); 
+            opacity: 0;
+            visibility: hidden;
+            box-shadow: 0 0.25rem 0.5rem rgba(136, 187, 44, 0.21);
+            
+            
+            .dropdown-item { 
+                color: var(--link-color); 
+                font-size: .937rem;  
+                display: block;
+                padding: .5rem 1rem;
+                position: relative;  
+ 
+                &:hover, &:focus, &:active {
+                    color: var(--dark); background-color: var(--brand-light);
+                }  
+            }
+            .active .dropdown-item {
+                color: var(--brand);border-left: .25rem solid var(--brand);
+                background-color: #e9ecef;
+            }
+              
+            &.show {
+                transform: scaleY(1);
+                opacity: 1;
+                visibility: visible; 
+            }
+        } 
+        
+        &:hover {
+            &>.nav-link {
+                color: var(--yellow);
+
+                .caret { transform: rotate(-180deg); } 
+            }
+        }
+    }
+  
+
+    .navbar-toggler {
+        border: 1px solid transparent;
+        width: 2.875rem;height: 2.875rem; 
+        
+         
+        &:focus {
+            box-shadow: none;
+            outline: none;
+        }  
+    }   
+} 
+ 
+
+.sideNav { 
+ 
+    ul.links__list {
+     
+        li {
+            border-bottom: 1px solid #eee; 
+            
+            a { 
+                display: flex;padding: .75rem 1rem;font-weight: 500;
+                color: var(--link-color); 
+                justify-content: space-between;align-items: center;
+                font-size: 1rem;
+
+                &.small { font-size: .875rem; }
+
+                &.btn__link {
+                    // width: calc(100% - 3rem);
+                    &::after {
+                        content: '\002B';font-family: inherit;font-size: 1.5rem;line-height: 1;
+                        color: var(--link-color);
+                    }
+                    &:not(.collapsed) {
+                        color: var(--brand);
+                        &::after {
+                            content: '\2212';color: var(--brand);
+                        }
+                    }
+                }
+
+                &.collapse__btn { 
+                    border-left: 1px solid #eee;
+                }
+
+                &:hover, &:focus, &:active {
+                    color: var(--brand);
+                }
+            }
+            .collapse {
+                li:first-child { border-top: 1px solid #eee; }
+            }
+        }
+    }
+
+    
+}
+ 
+
+.booking__modal {
+    .modal-dialog {
+        max-width: 700px;
+    }
+}
+ 
+ 
+@media (min-width:992px) {
+    .navbar .dropdown{
+        .dropdown-menu {
+            display: block;
+        }
+        &:hover {
+            .dropdown-menu { 
+                transform: scaleY(1);
+                opacity: 1;
+                visibility: visible; 
+            }
+        }
+    }
+}
+  
+
+@media (max-width:767px) {  
+    .navbar {   
+        padding: 1rem 0;
+        .navbar-brand img {
+            max-height: 4rem;width: auto;
+        }   
+    } 
+} 
+  
