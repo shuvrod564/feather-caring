@@ -1,124 +1,67 @@
 
-
-
-    <!-- info wrapper start -->
-    <div class="py-5 position-relative">
-        <img
-            src="assets/images/home/info-bg.webp"
-            srcset="assets/images/home/info-bg-400.webp 575w, assets/images/home/info-bg-1000.webp 1000w, assets/images/home/info-bg.webp 1200w"
-            width="1920" height="250"
-            class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover"
-            alt="Care Allies Disability Services"
-        />
-        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
-        <div class="container z-index py-md-4">
-            <p class="lead fw-medium text-center mb-0 text-white">
-                Care Allies Disability Services acknowledges the people of the many traditional countries and language groups. We acknowledges the wisdom of Elders past and present, and pays respect to all Aboriginal communities of today.
-            </p>
-        </div>
-    </div>
-    <!-- info wrapper end -->
-
-
-    <!-- Footer Wrapper Start -->
-    <section class="top__footer border-bottom bg-dark pt-3 pt-lg-5">
-        <div class="container mt-lg-4">
-            <div class="row g-3 align-items-center justify-content-between"> 
-                <div class="col-lg-6">
-                    <h2 class="h3 text-white mb-3">Contact information</h2>
-                    <p class="text-white fs-15">
-                        Contact us today for a consultation, and let’s take the first step towards achieving success together in meeting your disability service needs.
-                    </p>
-                </div>
-                <div class="col-lg-5">  
-                    <div class="d-flex align-items-center">
-                        <img class="img-fluid me-3" width="26" height="19" src="assets/images/icons/email.svg" alt="icons">
-                        <a class="text-white fw-semibold" href="hello@careallies.com">hello@careallies.com</a>
-                    </div>
-                    <div class="d-flex align-items-center my-3 my-lg-4">
-                        <img class="img-fluid me-3" width="26" height="26" src="assets/images/icons/phone.svg" alt="icons">
-                        <div> 
-                            <a class="text-white fw-semibold" href="tel:0432710422">0432710422</a> <br>
-                            <a class="text-white fw-semibold" href="tel:0432141283">0432141283</a>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center my-3 my-lg-4">
-                        <img class="img-fluid me-3" width="20" height="30" src="assets/images/icons/maps.svg" alt="icons">
-                        <address class="text-white fw-semibold mb-0">21 Edgeware Road Prospect NSW 2148</address>
-                    </div>
-                </div> 
-        
-            </div>  
-        </div>
-    </section> 
+ 
 
   <!-- Footer Wrapper Start -->
 
     <footer class="bg-dark">
         <div class="container py-3 py-xl-4">  
-            <div class="row g-3">
-                <div class="col-lg-6 col-md-6 col-sm-6 mb-3">       
-                    <div class="custom">
-                        <p class="lead-sm text-white fw-semibold mb-4">Services</p>  
-                        <ul class="link row row-cols-1 row-cols-sm-2 g-2">
-                            <li><a href="<?php echo $base_url;?>life-stage-assistance.php">Assistance with Life Stage, Transition</a></li>  
-                            <li><a href="<?php echo $base_url;?>personal-care-assistance.php">Personal Care / Activities Assistance </a></li> 
-                            <li><a href="<?php echo $base_url;?>transport-assistance.php">Transport / Travel Assistance</a></li> 
-                            <li><a href="<?php echo $base_url;?>supported-daily-tasks.php">Supported Daily Tasks / Shared Living</a></li> 
-                            <li><a href="<?php echo $base_url;?>innovative-community-participation.php">Innovative Community Participation Initiatives </a></li> 
-                            <li><a href="<?php echo $base_url;?>developing-life-skills.php">Assistance in developing Life Skills</a></li> 
-                            <li><a href="<?php echo $base_url;?>domestic-assistance.php">Domestic Assistance</a></li> 
-                            <li><a href="<?php echo $base_url;?>support-coordination.php">Support Coordination</a></li> 
-                            <li><a href="<?php echo $base_url;?>community-participation.php">Community Participation</a></li> 
-                            <li><a href="<?php echo $base_url;?>centre-activities.php">Group / Centre Activities</a></li> 
-                        </ul> 
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6"> 
-                    <div class="custom ps-xl-4">
-                        <p class="lead-sm text-white fw-semibold mb-4">Company</p> 
+            <div class="row g-3 justify-content-between">
+                <div class="col-lg-5 col-md-6">   
+                    <div class="text-center text-md-start me-lg-5">
+                        <div class="logo__box mb-3">
+                            <img class="img-fluid" width="298" height="124" src="assets/images/footer-logo.webp" alt="logo">
+                        </div>
+                        <p class="text-white">
+                            Welcome to Feather Caring, where we believe in nurturing lives with compassion and expertise. Nestled in the heart of Park Ridge, and extending our wings to Brisbane and Gold Coast,
+                        </p>
+                        <div class="mt-4">  
+                                
+                            <?php include_once('includes/_social-links.inc.php'); ?>  
+                        </div> 
+                    </div>    
+                </div><!--//.col-->
+                <div class="col-lg-3 col-md-6"> 
+                    <div class="custom ps-xl-4 text-center text-md-start">
+                        <p class="lead-lg text-white fw-semibold mb-4">Services</p> 
                         <ul class="link">
-                            <li class="mb-2 text-white"><a class="text-white" href="<?php echo $base_url;?>about.php">About Us</a></li>
-                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>career.php">Careers</a></li>
-                            <li class="mb-2"><a class="text-white" href="#">Press</a></li>
-                            <!-- <li class="mb-2"><a class="text-white" href="#">News</a></li> -->
-                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>contact.php">Contact</a></li> 
+                            <li class="mb-2"><a class="text-white" href="#"> Community Nursing </a></li>
+                            <li class="mb-2"><a class="text-white" href="#">Assist Personal Activities:</a></li>
+                            <li class="mb-2"><a class="text-white" href="#">High Intensity Daily Personal Activities</a></li> 
+                            <li class="mb-2"><a class="text-white" href="#">Household Tasks</a></li> 
+                            <li class="mb-2"><a class="text-white" href="#">Community Participation </a></li> 
+                            <li class="mb-2"><a class="text-white" href="#">Short Term Accommodation</a></li> 
                         </ul> 
                     </div>   
-                </div>
-                <!-- <div class="col-lg-2 col-md-4 col-6">
-                    <div class="custom">
-                        <p class="lead-sm text-white fw-semibold mb-4">Resources</p>    
+                </div><!--//.col-->
+                <div class="col-lg-2 col-md-6">     
+                    <div class="custom ps-xl-4 text-center text-md-start">
+                        <p class="lead-lg text-white fw-semibold mb-4">Company</p>   
                         <ul class="link">
-                            <li class="mb-2"><a class="text-white" href="blog.php">Blog</a></li>
-                            <li class="mb-2"><a class="text-white" href="#">Help center</a></li>
-                            <li class="mb-2"><a class="text-white" href="#">Support</a></li> 
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>about.php">About us</a></li>
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>">Careers</a></li>
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>">Press</a></li> 
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>">News</a></li> 
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>contact.php">Contact</a></li>  
                         </ul> 
-                    </div>
-                </div> -->
-                <!-- <div class="col-lg-2 col-md-4 col-6 offset-lg-1 ms-xl-auto">
-                    <div class="custom">
-                        <h5 class="lead-sm text-white fw-semibold mb-4">Other Links</h5>      
+                    </div>   
+                </div><!--//.col-->
+                <div class="col-lg-2 col-md-6">     
+                    <div class="custom ps-xl-4 text-center text-md-start">
+                        <p class="lead-lg text-white fw-semibold mb-4">Resources</p>     
                         <ul class="link">
-                            <li class="mb-2"><a class="text-white" href="#">Legal</a></li>
-                            <li class="mb-2"><a class="text-white" href="#">Terms</a></li>
-                            <li class="mb-2"><a class="text-white" href="#">Privacy</a></li>
-                            <li class="mb-2"><a class="text-white" href="#">Cookies</a></li> 
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>blog.php">Blog</a></li>
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>">Help center</a></li>
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>">Support</a></li>  
                         </ul> 
-                    </div>
-                </div> -->
-                <div class="col-lg-2 col-md-4">  
-                    <p class="lead-sm text-white fw-semibold">Social Media</p>       
-                    <?php include_once('includes/_social-links.inc.php'); ?>  
-                </div>
-            </div>
-        </div>
+                    </div>   
+                </div><!--//.col--> 
+            </div><!--//.row-->
+        </div><!--//.container-->
         <div class="copyright__wrapp border-top bg-dark py-3 mt-4 mt-md-5 position-relative" style="background-color: #212121;">
             <div class="container-fluid"> 
-                <div class="row g-2 align-items-center">
-                    
+                <div class="row g-2 align-items-center"> 
                     <div class="col-md-12"> 
-                        <div class="text-center mb-0 text-white fw-medium">© 2023 care allies | Designed by <a href="https://techpullers.com/website-dev.php" target="_blank" class="d-inline text-white"> Techpullers</a></div>
+                        <div class="text-center mb-0 text-white fw-medium">© 2024 care allies | Designed by <a href="https://techpullers.com/website-dev.php" target="_blank" class="d-inline text-white"> Techpullers</a></div>
                     </div>
                 </div><!--//.row--> 
             </div>

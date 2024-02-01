@@ -18,7 +18,7 @@
     --body-font: 'Montserrat', sans-serif;
     --heading-font: 'Caudex', serif;
 }
-
+ 
  
  
 
@@ -75,7 +75,8 @@ body {
 .text-dark { color:var(--dark) !important; }   
 .text-26 { color: #262626 !important; }   
  
- 
+.text-27 { color: #00272F;}
+.text-date { color: rgba(39, 39, 39, 0.2);}
 .text-gray { color: var(--gray) !important; }   
 .fw-medium { font-weight: 500 !important; } 
 .fw-semibold { font-weight: 600; }

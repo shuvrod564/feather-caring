@@ -44,32 +44,32 @@ function topFunction() {
  
 
   // Bottom Section Service Slider Activaton Script (Homepage)
-  $(".courseCarousel").owlCarousel({
-    autoplay: true, 
-    autoplayHoverPause: true,
-    smartSpeed: 550,
-    responsiveClass: true,
-    autoplayTimeout: 10000,
-    autoplaySpeed: 3000,
-    loop: true,
-    margin: 15,
-    items: 3,
-    nav: false,
-    dots: true,
-    responsiveClass: true, 
-    responsive: { 
-        0: { items: 1, margin: 8 },
-        576: { items: 2, margin: 10  },
-        768: { items: 2, margin: 15  },
-        992: { items: 2, margin: 15  }, 
-        1200: { items: 3, margin: 15 }, 
-    } 
-  });
+  // $(".testimonialSlider").owlCarousel({
+  //   autoplay: true, 
+  //   autoplayHoverPause: true,
+  //   smartSpeed: 550,
+  //   responsiveClass: true,
+  //   autoplayTimeout: 10000,
+  //   autoplaySpeed: 3000,
+  //   loop: true,
+  //   margin: 15,
+  //   items: 3,
+  //   nav: false,
+  //   dots: true,
+  //   responsiveClass: true, 
+  //   responsive: { 
+  //       0: { items: 1,},
+  //       576: { items: 1 },
+  //       768: { items: 1 },
+  //       992: { items: 1 }, 
+  //       1200: { items: 1 }, 
+  //   } 
+  // });
  
   
   
     
-  $(".blogSlider").owlCarousel({
+  $(".blogCarousel").owlCarousel({
     autoplay: true, 
     autoplayHoverPause: true,
     smartSpeed: 550,
@@ -90,6 +90,30 @@ function topFunction() {
         1200: { items: 3 },  
     } 
   });
+  $(".servicesCarousel").owlCarousel({
+    autoplay: true, 
+    autoplayHoverPause: true,
+    smartSpeed: 550,
+    responsiveClass: true,
+    autoplayTimeout: 10000,
+    autoplaySpeed: 3000,
+    loop: true,
+    margin: 15,
+    items: 3,
+    nav: false,
+    dots: true, 
+    responsiveClass: true, 
+    responsive: { 
+        0: { items: 1 },
+        576: { items: 1  },
+        768: { items: 2 },
+        992: { items: 2 }, 
+        1200: { items: 3 },  
+    } 
+  });
+
+    
+  
 
   
   

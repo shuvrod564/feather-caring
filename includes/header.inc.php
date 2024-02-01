@@ -1,5 +1,5 @@
       
-    <nav class="navbar navbar-expand-xl smart-scroll bg-white py-2" id="mainNav">
+    <nav class="navbar navbar-expand-xl smart-scroll py-2" id="mainNav">
         <div class="container">   
             <a href="<?php echo $base_url;?>" class="navbar-brand p-0 m-0 d-inline-block" aria-label="<?php echo $site_name;?>">
                 <img src="<?php echo $base_url;?>assets/images/logo.webp" width="176" height="73" alt="<?php echo $site_name;?>">
@@ -7,40 +7,32 @@
           
             <ul class="navbar-nav d-none d-xl-flex align-items-center">    
                 <li class="nav-item"> 
-                    <a href="<?php echo $base_url;?>" class="nav-link">
-                        Home
+                    <a href="<?php echo $base_url;?>" class="nav-link">    
+                        HOME
                     </a>  
                 </li>         
                 <li class="nav-item dropdown ms-xxl-5 ms-3"> 
-                    <a href="#" class="nav-link dropdown-toggle fw-semibold" id="drop1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">    
-                        Services
+                    <a href="#" class="nav-link" id="drop1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">    
+                        ABOUT US
                     </a>  
-                    <ul class="dropdown-menu p-3 rounded-3 border-0 bg-white overflow-hidden" aria-labelledby="drop1">   
+                    <!-- <ul class="dropdown-menu p-3 rounded-3 border-0 bg-white overflow-hidden" aria-labelledby="drop1">   
                         <li><a href="<?php echo $base_url;?>life-stage-assistance.php" class="dropdown-item fw-medium rounded-3 p-2 rounded-2">Assistance with Life Stage, Transition</a></li>  
-                        <li><a href="<?php echo $base_url;?>personal-care-assistance.php" class="dropdown-item fw-medium rounded-3 p-2 rounded-2">Personal Care / Activities Assistance </a></li> 
-                        <li><a href="<?php echo $base_url;?>transport-assistance.php" class="dropdown-item fw-medium rounded-3 p-2 rounded-2">Transport / Travel Assistance</a></li> 
-                        <li><a href="<?php echo $base_url;?>supported-daily-tasks.php" class="dropdown-item fw-medium rounded-3 p-2 rounded-2">Supported Daily Tasks / Shared Living</a></li> 
-                        <li><a href="<?php echo $base_url;?>innovative-community-participation.php" class="dropdown-item fw-medium rounded-3 p-2 rounded-2">Innovative Community Participation Initiatives </a></li> 
-                        <li><a href="<?php echo $base_url;?>developing-life-skills.php" class="dropdown-item fw-medium rounded-3 p-2 rounded-2">Assistance in developing Life Skills</a></li> 
-                        <li><a href="<?php echo $base_url;?>domestic-assistance.php" class="dropdown-item fw-medium rounded-3 p-2 rounded-2">Domestic Assistance</a></li> 
-                        <li><a href="<?php echo $base_url;?>support-coordination.php" class="dropdown-item fw-medium rounded-3 p-2 rounded-2">Support Coordination</a></li> 
-                        <li><a href="<?php echo $base_url;?>community-participation.php" class="dropdown-item fw-medium rounded-3 p-2 rounded-2">Community Participation</a></li> 
-                        <li><a href="<?php echo $base_url;?>centre-activities.php" class="dropdown-item fw-medium rounded-3 p-2 rounded-2">Group / Centre Activities</a></li> 
-                    </ul> 
+                        <li><a href="<?php echo $base_url;?>personal-care-assistance.php" class="dropdown-item fw-medium rounded-3 p-2 rounded-2">Personal Care / Activities Assistance </a></li>  
+                    </ul>  -->
                 </li>         
                 <li class="nav-item dropdown ms-xxl-5 ms-3"> 
                     <a href="<?php echo $base_url;?>career.php" class="nav-link">
-                        Careers
+                        SERVICES
                     </a>  
                 </li>         
-                <!-- <li class="nav-item dropdown ms-xxl-5 ms-3"> 
+                <li class="nav-item dropdown ms-xxl-5 ms-3"> 
                     <a href="#" class="nav-link">
-                        Blogs
+                        BLOG
                     </a>  
-                </li>          -->
+                </li>         
                 <li class="nav-item ms-xxl-5 ms-3"> 
                     <a href="<?php echo $base_url;?>contact.php" class="nav-link">
-                        Contact Us
+                        CONTACT
                     </a>  
                 </li>     
                   

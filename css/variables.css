@@ -126,6 +126,14 @@ body {
   color: #262626 !important;
 }
 
+.text-27 {
+  color: #00272F;
+}
+
+.text-date {
+  color: rgba(39, 39, 39, 0.2);
+}
+
 .text-gray {
   color: var(--gray) !important;
 }
@@ -374,7 +382,7 @@ ul li {
 
 .scrolled-up {
   transform: translateY(0);
-  background-color: rgb(255, 244, 235) !important;
+  background-color: white;
   transition: all 0.3s ease-in-out;
   position: fixed;
   top: 0;
