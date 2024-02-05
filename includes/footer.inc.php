@@ -81,39 +81,4 @@
     <script type="text/javascript" src="https://unpkg.com/default-passive-events@2.0.0/dist/index.umd.js"></script>
     <!-- <script src="<?php // echo $base_url;?>assets/js/vendors.min.js"></script>   -->
     <!-- JS: Designer Script -->
-    <script src="<?php echo $base_url;?>assets/js/script.js"></script>  
-   
- 
-    <script>
-         
-        $(".testimonialSlider").owlCarousel({
-            autoplay: true, 
-            autoplayHoverPause: true,
-            smartSpeed: 550,
-            responsiveClass: true,
-            autoplayTimeout: 10000,
-            autoplaySpeed: 3000,
-            loop: true,
-            margin: 15, 
-            items: 3,
-            navText: [
-                '<img src="<?php echo $base_url;?>assets/images/home/testimonial/left-arow.svg" class="img-fluid" width="19" height="26" alt="icon" />',
-                '<img src="<?php echo $base_url;?>assets/images/home/testimonial/right-arow.svg" class="img-fluid" width="19" height="26" alt="icon" />', 
-            ] ,
-            nav: true,
-            dots: false, 
-            responsiveClass: true, 
-            responsive: { 
-                0: { items: 1 },
-                576: { items: 1  },
-                768: { items: 1 },
-                992: { items: 2 }, 
-                1200: { items: 2.6 }, 
-            } 
-        });
-        
-    </script>
-
-
-
-
+    <script src="<?php echo $base_url;?>assets/js/script.js"></script>   

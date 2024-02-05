@@ -44,27 +44,27 @@ function topFunction() {
  
 
   // Bottom Section Service Slider Activaton Script (Homepage)
-  // $(".testimonialSlider").owlCarousel({
-  //   autoplay: true, 
-  //   autoplayHoverPause: true,
-  //   smartSpeed: 550,
-  //   responsiveClass: true,
-  //   autoplayTimeout: 10000,
-  //   autoplaySpeed: 3000,
-  //   loop: true,
-  //   margin: 15,
-  //   items: 3,
-  //   nav: false,
-  //   dots: true,
-  //   responsiveClass: true, 
-  //   responsive: { 
-  //       0: { items: 1,},
-  //       576: { items: 1 },
-  //       768: { items: 1 },
-  //       992: { items: 1 }, 
-  //       1200: { items: 1 }, 
-  //   } 
-  // });
+  $(".testimonialSlider").owlCarousel({
+    autoplay: true, 
+    autoplayHoverPause: true,
+    smartSpeed: 550,
+    responsiveClass: true,
+    autoplayTimeout: 10000,
+    autoplaySpeed: 3000,
+    loop: true,
+    margin: 15,
+    items: 3,
+    nav: false,
+    dots: true,
+    responsiveClass: true, 
+    responsive: { 
+        0: { items: 1,},
+        576: { items: 1 },
+        768: { items: 1 },
+        992: { items: 1 }, 
+        1200: { items: 1 }, 
+    } 
+  });
  
   
   

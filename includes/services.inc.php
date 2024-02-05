@@ -6,8 +6,8 @@
         <h2 class="fs-2 text-dark fw-bold text-center text-lg-start mb-3 mb-lg-4">Quality Senior Living, Every Step Of The Way</h2>
         <div class="owl-carousel servicesCarousel">
 
-            <div class="service__card w-100 p-2">
-                <a href="#" class=" ">
+            <div class="service__card w-100">
+                <a href="#" class="d-block">
                     <img 
                         src="assets/images/home/community-nursing.webp" 
                         width="406" height="213" 
@@ -15,7 +15,7 @@
                         class="img-fluid w-100"
                     >
                 </a>
-                <div class="title__box p-3">
+                <div class="title__box p-3 px-md-4">
                     <h3 class="lead-sm fw-bold my-3">
                         <a href="#" class="text-dark">Community Nursing</a>
                     </h3>
@@ -25,8 +25,8 @@
                 </div>  
             </div> 
              
-            <div class="service__card w-100 p-2">
-                <a href="#" class="">
+            <div class="service__card w-100">
+                <a href="#" class="d-block">
                     <img 
                         src="assets/images/home/assist-personal-activities.webp" 
                         width="406" height="213"
@@ -34,7 +34,7 @@
                         class="img-fluid w-100"
                     >
                 </a>
-                <div class="title__box p-3">
+                <div class="title__box p-3 px-md-4">
                     <h3 class="lead-sm fw-bold my-3">
                         <a href="#" class="text-dark">Assist Personal Activities</a>
                     </h3>
@@ -44,8 +44,8 @@
                 </div>  
             </div> 
              
-            <div class="service__card w-100 p-2">
-                <a href="#" class="">
+            <div class="service__card w-100">
+                <a href="#" class="d-block">
                     <img 
                         src="assets/images/home/high-intensity-daily.webp" 
                         width="406" height="213" 
@@ -53,7 +53,7 @@
                         class="img-fluid"
                     >
                 </a>
-                <div class="title__box p-3">
+                <div class="title__box p-3 px-md-4">
                     <h3 class="lead-sm fw-bold my-3">
                         <a href="#" class="text-dark">High Intensity Daily Personal Activities</a>
                     </h3>

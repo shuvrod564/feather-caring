@@ -355,11 +355,8 @@ ul li {
   html {
     font-size: 87.5%;
   }
-  .fs-13 {
-    font-size: 11px;
-  }
   .lead {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
   .btn {
     font-size: 0.937rem;
@@ -424,7 +421,7 @@ ul li {
   box-shadow: 0 0.25rem 0.5rem rgba(136, 187, 44, 0.21);
 }
 .navbar .dropdown .dropdown-menu .dropdown-item {
-  color: var(--link-color);
+  color: #707070;
   font-size: 0.937rem;
   display: block;
   padding: 0.5rem 1rem;
@@ -452,8 +449,6 @@ ul li {
 }
 .navbar .navbar-toggler {
   border: 1px solid transparent;
-  width: 2.875rem;
-  height: 2.875rem;
 }
 .navbar .navbar-toggler:focus {
   box-shadow: none;

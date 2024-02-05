@@ -23,7 +23,7 @@
         <div class="container container__wraper">
             <div class="row g-4 align-items-center"> 
                 <div class="col-lg-5 text-center text-lg-start">   
-                    <h1 class="display-4 fw-bold text-dark">
+                    <h1 class="display-2 fw-bold text-dark title">
                         <span class="text-dark fw-bold d-sm-block">Persist in Life</span>
                         <span class="text-dark fw-bold d-sm-block">Let Hope Thrive</span> 
                     </h1>
@@ -49,7 +49,7 @@
             <img class="img-fluid" width="775" height="787" src="assets/images/home/water-img-1.webp" alt="rope thumbnail">
         </div>
         <div class="position-absolute rope d-none d-xl-block">
-            <img class="img-fluid" width="" height="" src="assets/images/home/rope.webp" alt="rope thumbnail">
+            <img class="img-fluid" width="337" height="628" src="assets/images/home/rope.webp" alt="rope thumbnail">
         </div>
     </header>
     <!-- Header Wrapper End -->  
@@ -88,7 +88,7 @@
             <div class="row g-3 mt-5">
                 <div class="col-lg-6 col-md-12 d-flex">
                     <div class="care__card">
-                        <img class="img-fluid w-100 h-100" src="assets/images/home/heartwarming-care-01.webp" width="638" height="505" alt="fether thumbnail"> 
+                        <img class="img-fluid w-100 h-100 object-cover" src="assets/images/home/heartwarming-care-01.webp" width="638" height="505" alt="fether thumbnail" style="object-position:center right;"> 
                     </div>
                 </div><!--//.col-->
                 <div class="col-lg-6 d-flex">
@@ -158,41 +158,57 @@
                 <p>FinTeam was developed by a team of experienced financial planners and technology experts.</p> 
             </div>
             <div class="owl-carousel blogCarousel">
-                <div class="blog__card p-4">
-                    <img class="img-fluid" width="372" height="238" src="assets/images/blogs/blog-01.webp" alt="Blogs thumbnail">
+                <div class="blog__card p-4 rounded-4">
+                    <a href="#" class="d-block rounded-4 overflow-hidden">
+                        <img class="img-fluid" width="372" height="238" src="assets/images/blogs/blog-01.webp" alt="Blogs thumbnail">
+                    </a>
                     <div class="title__box">
                         <span class="d-block fw-semibold text-date my-3">23 Aug 2023</span>
-                        <h3 class="fs-5 text-primary fw-semibold mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting</h3>
+                        <h3 class="fs-5 text-primary fw-semibold mb-3 title">
+                            <a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting</a>
+                        </h3>
                         <p class="text-27 fs-15">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
                         </p>
                     </div>
                 </div><!--//.blog__card-->
-                <div class="blog__card p-4">
-                    <img class="img-fluid" width="372" height="238" src="assets/images/blogs/blog-01.webp" alt="Blogs thumbnail">
+                <div class="blog__card p-4 rounded-4">
+                    <a href="#" class="d-block rounded-4 overflow-hidden">
+                        <img class="img-fluid" width="372" height="238" src="assets/images/blogs/blog-01.webp" alt="Blogs thumbnail">
+                    </a>
                     <div class="title__box">
                         <span class="d-block fw-semibold text-date my-3">23 Aug 2023</span>
-                        <h3 class="fs-5 text-primary fw-semibold mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting</h3>
+                        <h3 class="fs-5 text-primary fw-semibold mb-3 title">
+                            <a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting</a>
+                        </h3>
                         <p class="text-27 fs-15">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
                         </p>
                     </div>
                 </div><!--//.blog__card-->
-                <div class="blog__card p-4">
-                    <img class="img-fluid" width="372" height="238" src="assets/images/blogs/blog-01.webp" alt="Blogs thumbnail">
+                <div class="blog__card p-4 rounded-4">
+                    <a href="#" class="d-block rounded-4 overflow-hidden">
+                        <img class="img-fluid" width="372" height="238" src="assets/images/blogs/blog-01.webp" alt="Blogs thumbnail">
+                    </a>
                     <div class="title__box">
                         <span class="d-block fw-semibold text-date my-3">23 Aug 2023</span>
-                        <h3 class="fs-5 text-primary fw-semibold mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting</h3>
+                        <h3 class="fs-5 text-primary fw-semibold mb-3 title">
+                            <a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting</a>
+                        </h3>
                         <p class="text-27 fs-15">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
                         </p>
                     </div>
                 </div><!--//.blog__card-->
-                <div class="blog__card p-4">
-                    <img class="img-fluid" width="" height="" src="assets/images/blogs/blog-01.webp" alt="Blogs thumbnail">
+                <div class="blog__card p-4 rounded-4">
+                    <a href="#" class="d-block rounded-4 overflow-hidden">
+                        <img class="img-fluid" width="" height="" src="assets/images/blogs/blog-01.webp" alt="Blogs thumbnail">
+                    </a>
                     <div class="title__box">
                         <span class="d-block fw-semibold text-date my-3">23 Aug 2023</span>
-                        <h3 class="fs-5 text-primary fw-semibold mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting</h3>
+                        <h3 class="fs-5 text-primary fw-semibold mb-3 title">
+                            <a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting</a>
+                        </h3>
                         <p class="text-27 fs-15">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
                         </p>
@@ -210,20 +226,47 @@
                 <p class="lead text-primary fw-semibold mb-0">FEEDBACKS</p>
                 <h2 class="fs-1 text-27 fw-semibold mb-4">Stories From Our Patients</h2>
             </div>
-            <div class="col-lg-10 position__img ps-0 pb-0 ps-lg-5 pb-lg-5 d-flex align-items-end justify-content-center mx-auto" style="background: url(assets/images/home/testi-bg-thumbnail.webp) no-repeat center center / cover;
+            <div class="col-lg-10 position__img p-lg-5 p-4 d-flex align-items-end justify-content-center mx-auto overflow-hidden" style="background: url(assets/images/home/testi-bg-thumbnail.webp) no-repeat center center / cover;
             box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.41);">
-                <!-- <div class="owl-carousel testimonialSlider"></div>  -->
-                <div class="testi__box col-lg-7 me-auto" style="background-color: #3BA9E2;">
-                    <div class="d-flex align-items-center gap-4 mb-2">
-                        <img class="img-fluid" width="97" height="97" src="assets/images/testimonial/client-thumb.webp" alt="client thumb">
-                        <div class="client__box">
-                            <span class="d-block fs-4 text-white fw-medium">Labin</span>
-                            <span class="d-block fs-15 text-white fw-medium">Dubai</span>
+                <div class="testi__box col-lg-9 col-xl-8 col-12 me-auto" style="background-color: #3BA9E2;">
+                    <div class="owl-carousel testimonialSlider">
+                        <div class=""> 
+                            <div class="d-flex align-items-center gap-3 mb-2 author__box">
+                                <img class="img-fluid object-cover" width="97" height="97" src="assets/images/testimonial/client-thumb.webp" alt="client thumb">
+                                <div class="client__box col">
+                                    <span class="d-block fs-4 text-white fw-medium">Labin</span>
+                                    <span class="d-block fs-15 text-white fw-medium">Dubai</span>
+                                </div>
+                            </div>
+                            <p class="text-white fs-15">
+                                “I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
+                            </p>
                         </div>
-                    </div>
-                    <p class="text-white fs-15">
-                        “I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
-                    </p>
+                        <div class=""> 
+                            <div class="d-flex align-items-center gap-3 mb-2 author__box">
+                                <img class="img-fluid object-cover" width="97" height="97" src="assets/images/testimonial/client-thumb.webp" alt="client thumb">
+                                <div class="client__box col">
+                                    <span class="d-block fs-4 text-white fw-medium">Labin</span>
+                                    <span class="d-block fs-15 text-white fw-medium">Dubai</span>
+                                </div>
+                            </div>
+                            <p class="text-white fs-15">
+                                “I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
+                            </p>
+                        </div>
+                        <div class=""> 
+                            <div class="d-flex align-items-center gap-3 mb-2 author__box">
+                                <img class="img-fluid object-cover" width="97" height="97" src="assets/images/testimonial/client-thumb.webp" alt="client thumb">
+                                <div class="client__box col">
+                                    <span class="d-block fs-4 text-white fw-medium">Labin</span>
+                                    <span class="d-block fs-15 text-white fw-medium">Dubai</span>
+                                </div>
+                            </div>
+                            <p class="text-white fs-15">
+                                “I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
+                            </p>
+                        </div>
+                    </div> 
                 </div> 
             </div><!--//.col-lg-10-->
         </div><!--//.container-->
