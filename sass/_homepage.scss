@@ -4,7 +4,7 @@
 .header__wrapper { 
     // min-height:calc(100vh - 89px);
     background-color: rgba(0, 153, 219, 0.1);
-    margin-top: -5.562rem;
+ 
     
     .container__wraper{
         margin-top: 5.562rem;
@@ -41,7 +41,7 @@
 
 @media (max-width:991px) {
     .header__wrapper {
-        margin-top: -6rem;
+     
         .container__wraper {
             padding-top: 5rem;
         }
@@ -88,37 +88,31 @@
 }
 
 .feather__caring{
-    .circle__1{
+    .patient__thumb {
+        width: 4.75rem;
+        height: 4.75rem;  
+    }
+    .circle {
         width: 4.75rem;
         height: 4.75rem;
         border: 1px solid #707070;
         background-color: #fff;
         border-radius: 50%;
+    }
+    .circle__1{ 
         top: 1.5rem; 
         left: 0;
         z-index: 0;
     }
-    .circle__2{
-        width: 4.75rem;
-        height: 4.75rem;
-        border: 1px solid #707070;
-        background-color: #fff;
-        border-radius: 50%;
+    .circle__2{ 
         top: 1.5rem;
         left: 58px;
-        z-index: 1;
-        
+        z-index: 1; 
     }
-    .circle__3{
-        width: 4.75rem;
-        height: 4.75rem;
-        border: 1px solid #707070;
-        background-color: #fff;
-        border-radius: 50%;
+    .circle__3{ 
         top: 1.5rem;
         left: 117px;
-        z-index: 2;
-        
+        z-index: 2; 
     }
     .border_right{
         height: 4.5rem;

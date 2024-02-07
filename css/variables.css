@@ -381,19 +381,21 @@ ul li {
   transform: translateY(0);
   background-color: white;
   transition: all 0.3s ease-in-out;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 .scrolled-up .navbar-brand img {
   max-height: 5rem;
+  width: auto;
 }
 
 .navbar {
   z-index: 999;
   padding: 0%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 .navbar .nav-item .nav-link {
   font-size: 1rem;

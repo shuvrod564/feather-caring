@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"> 
-    <title>Care allies </title>
+    <title>Feather Caring</title>
     <link rel="canonical" href="<?php echo $base_url;?>" />
  
     <!-- All Stylesheets --> 
@@ -69,9 +69,15 @@
                     </h2>
                     
                     <div class="d-flex align-items-center position-relative d-none d-lg-block">
-                        <div class="circle__1 position-absolute"></div>
-                        <div class="circle__2 position-absolute"></div>
-                        <div class="circle__3 position-absolute"></div> 
+                        <div class="circle__1 position-absolute circle rounded-circle">
+                            <img src="assets/images/patient/patient-01.webp" class="img-fluid patient__thumb object-cover rounded-circle" alt="Patient thumb">
+                        </div>
+                        <div class="circle__2 position-absolute circle rounded-circle">
+                            <img src="assets/images/patient/patient-02.webp" class="img-fluid patient__thumb object-cover rounded-circle" alt="Patient thumb">
+                        </div>
+                        <div class="circle__3 position-absolute circle rounded-circle">
+                            <img src="assets/images/patient/patient-03.webp" class="img-fluid patient__thumb object-cover rounded-circle" alt="Patient thumb">
+                        </div> 
                         <div class="border_right position-absolute"></div>
                         <div class="content__position text-primary lead fw-semibold position-absolute">2800+ SATISFIED PATIENTS</div>
                     </div>  
@@ -85,27 +91,25 @@
                     </div>
                 </div><!--//.col-->
             </div><!--//.row-->
-            <div class="row g-3 mt-5">
+            <div class="row g-3 mt-5 d-none d-md-flex">
                 <div class="col-lg-6 col-md-12 d-flex">
-                    <div class="care__card">
-                        <img class="img-fluid w-100 h-100 object-cover" src="assets/images/home/heartwarming-care-01.webp" width="638" height="505" alt="fether thumbnail" style="object-position:center right;"> 
-                    </div>
+                    <img class="img-fluid w-100 h-100 object-cover" src="assets/images/home/heartwarming-care-01.webp" width="638" height="505" alt="fether thumbnail"  style="border-radius: 1.25rem;object-position: center right;">  
                 </div><!--//.col-->
                 <div class="col-lg-6 d-flex">
                     <div class="row g-3 w-100">
                         <div class="col-md-6 col-lg-6 ">
-                            <div class="care__card">
-                                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-02.webp" width="302" height="505" alt="fether thumbnail">  
-                            </div>
+                            <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-02.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">   
                         </div>
                         <div class="col-md-6 col-lg-6">
-                            <div class="care__card">
-                                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-03.webp" width="302" height="505" alt="fether thumbnail">  
-                            </div>
+                            <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-03.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">   
                         </div> 
                     </div>
                 </div><!--//.col-->
             </div><!--//.row-->
+            <div class="owl-carousel galleryCarousel mt-4 d-md-none">
+                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-02.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">   
+                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-03.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">  
+            </div>
         </div><!--//.container-->
     </section>
     <!-- WELCOME TO FEATHER CARING End --> 

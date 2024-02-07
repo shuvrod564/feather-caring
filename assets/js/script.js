@@ -111,6 +111,19 @@ function topFunction() {
         1200: { items: 3 },  
     } 
   });
+  $(".galleryCarousel").owlCarousel({
+    autoplay: true, 
+    autoplayHoverPause: true,
+    smartSpeed: 550,
+    responsiveClass: true,
+    autoplayTimeout: 10000,
+    autoplaySpeed: 3000,
+    loop: true,
+    margin: 10,
+    items: 2,
+    nav: false,
+    dots: true,  
+  });
 
     
   
