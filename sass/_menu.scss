@@ -9,18 +9,21 @@
 
 .scrolled-up {
     transform: translateY(0);background-color: white;
-    transition: all 0.3s ease-in-out; position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 16px rgba($color: #000000, $alpha: 0.12);
     
-    .navbar-brand img { max-height: 5rem; }
+    
+    .navbar-brand img { max-height: 5rem;width: auto; }
 }
 .navbar {     
     z-index: 999;
     padding: 0%;
-    
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
     .nav-item {  
         .nav-link {
             font-size: 1rem;  
@@ -60,7 +63,7 @@
             
             
             .dropdown-item { 
-                color: var(--link-color); 
+                color: #707070;
                 font-size: .937rem;  
                 display: block;
                 padding: .5rem 1rem;
@@ -93,9 +96,7 @@
   
 
     .navbar-toggler {
-        border: 1px solid transparent;
-        width: 2.875rem;height: 2.875rem; 
-        
+        border: 1px solid transparent;  
          
         &:focus {
             box-shadow: none;

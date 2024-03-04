@@ -355,11 +355,8 @@ ul li {
   html {
     font-size: 87.5%;
   }
-  .fs-13 {
-    font-size: 11px;
-  }
   .lead {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
   .btn {
     font-size: 0.937rem;
@@ -384,19 +381,21 @@ ul li {
   transform: translateY(0);
   background-color: white;
   transition: all 0.3s ease-in-out;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 .scrolled-up .navbar-brand img {
   max-height: 5rem;
+  width: auto;
 }
 
 .navbar {
   z-index: 999;
   padding: 0%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 .navbar .nav-item .nav-link {
   font-size: 1rem;
@@ -424,7 +423,7 @@ ul li {
   box-shadow: 0 0.25rem 0.5rem rgba(136, 187, 44, 0.21);
 }
 .navbar .dropdown .dropdown-menu .dropdown-item {
-  color: var(--link-color);
+  color: #707070;
   font-size: 0.937rem;
   display: block;
   padding: 0.5rem 1rem;
@@ -452,8 +451,6 @@ ul li {
 }
 .navbar .navbar-toggler {
   border: 1px solid transparent;
-  width: 2.875rem;
-  height: 2.875rem;
 }
 .navbar .navbar-toggler:focus {
   box-shadow: none;
