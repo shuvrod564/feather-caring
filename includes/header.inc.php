@@ -12,7 +12,7 @@
                     </a>  
                 </li>         
                 <li class="nav-item dropdown ms-xxl-5 ms-3"> 
-                    <a href="#" class="nav-link" id="drop1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">    
+                    <a href="about.php" class="nav-link" id="drop1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">    
                         ABOUT US
                     </a>  
                     <!-- <ul class="dropdown-menu p-3 rounded-3 border-0 bg-white overflow-hidden" aria-labelledby="drop1">   
@@ -21,7 +21,7 @@
                     </ul>  -->
                 </li>         
                 <li class="nav-item dropdown ms-xxl-5 ms-3"> 
-                    <a href="<?php echo $base_url;?>career.php" class="nav-link">
+                    <a href="<?php echo $base_url;?>excellence-in-community-nursing.php" class="nav-link">
                         SERVICES
                     </a>  
                 </li>         
@@ -69,6 +69,7 @@
                         Services
                     </a>
                     <ul class="collapse" id="collapse1">  
+                        <li><a href="<?php echo $base_url;?>excellence-in-community-nursing.php" class="small">Excellence In Community Nursing</a></li>  
                         <li><a href="<?php echo $base_url;?>life-stage-assistance.php" class="small">Assistance with Life Stage, Transition</a></li>  
                         <li><a href="<?php echo $base_url;?>personal-care-assistance.php" class="small">Personal Care / Activities Assistance </a></li> 
                         <li><a href="<?php echo $base_url;?>transport-assistance.php" class="small">Transport / Travel Assistance</a></li> 
