@@ -12,7 +12,7 @@
                     </a>  
                 </li>         
                 <li class="nav-item dropdown ms-xxl-5 ms-3"> 
-                    <a href="#" class="nav-link">    
+                    <a href="about.php" class="nav-link">    
                         ABOUT US
                     </a> 
                 </li>         
@@ -21,8 +21,8 @@
                         SERVICES
                     </a>  
                     <ul class="dropdown-menu p-2 rounded-3 border-0 bg-white overflow-hidden" aria-labelledby="drop2">   
-                        <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="#"> Community Nursing </a></li>
-                        <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="#">Assist Personal Activities:</a></li>
+                        <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="<?php echo $base_url;?>community-nursing.php">Excellence in Community Nursing</a></li>
+                        <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="<?php echo $base_url;?>assist-personal-activities.php">Assist Personal Activities</a></li>
                         <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="#">High Intensity Daily Personal Activities</a></li> 
                         <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="#">Household Tasks</a></li> 
                         <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="#">Community Participation </a></li> 
@@ -71,14 +71,14 @@
         <div class="offcanvas-body px-0">
         <ul class="links__list">
                 <li><a href="<?php echo $base_url;?>">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="about.php">About Us</a></li>
                 <li> 
                     <a class="btn__link collapsed" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
                         Services
                     </a>
                     <ul class="collapse" id="collapse1">  
-                        <li><a href="#"> Community Nursing </a></li>
-                        <li><a href="#">Assist Personal Activities:</a></li>
+                        <li><a href="<?php echo $base_url;?>community-nursing.php">Excellence in Community Nursing</a></li>
+                        <li><a href="<?php echo $base_url;?>assist-personal-activities.php">Assist Personal Activities</a></li>
                         <li><a href="#">High Intensity Daily Personal Activities</a></li> 
                         <li><a href="#">Household Tasks</a></li> 
                         <li><a href="#">Community Participation </a></li> 

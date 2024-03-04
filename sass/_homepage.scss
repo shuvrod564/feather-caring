@@ -7,7 +7,7 @@
  
     
     .container__wraper{
-        margin-top: 5.562rem;
+        margin-top: 7.562rem;
     }
   
     .h1 {
@@ -43,7 +43,7 @@
     .header__wrapper {
      
         .container__wraper {
-            padding-top: 5rem;
+            padding: 5rem 0rem;
         }
     }
 }
@@ -51,7 +51,10 @@
 @media (max-width:575px) {
     .header__wrapper {
         .display-4 { font-size: 1.5rem;line-height: 1.2; }
-        
+
+        .container__wraper {
+            margin-top: 4.9rem;
+          }
     }
 }
 @media (max-width:575px) {
@@ -196,7 +199,60 @@
      
 }
 
+.accordion .accordion-item {  
 
+    background-color: #0D679917;   
+    border-radius:  43px !important;
+
+    &:not(:last-child) {
+        margin-bottom: 1.45rem; 
+    }
+
+    .accordion-header{
+        background-color: none !important;
+    }
+
+    .accordion-button{ 
+        border: 0;box-shadow: none !important;min-height: 5rem;
+        border-radius:  43px !important;
+        background-color: rgba(59, 170, 226, 0.10);   
+        font-size: 1.15rem;
+        padding: 0rem 2rem;
+        &:not(.collapsed) {
+            color:var(--dark); 
+            box-shadow: none !important; 
+            background-color: transparent;
+            
+            &::after{
+                background-image: none; 
+            }  
+        } 
+        &::after{
+            background-image:none; 
+             
+        }  
+    }
+    .accordion-body {
+        padding-top: 0;font-size: 0.937rem;
+
+        p:last-child { margin-bottom: 0; }
+    }
+}
+
+
+// ======================
+
+.feather__card{
+
+    padding: 2.35rem 1.75rem;
+    border: 1px solid #707070;
+    border-radius: 1.5rem;
+    transition: all 0.5s ease-in-out;
+
+    &:hover{
+        background-color: #0D679917;
+    }
+}
 
 
 

@@ -20,9 +20,9 @@
         
     
     <!-- Header Wrapper Start -->
-    <header class="py-5 d-flex align-items-center" style="background-color: rgba(0, 153, 219, 0.10);">
-        <div class="container-fluid py-lg-5">
-            <h1 class="display-1 text-capitalize text-dark fw-bold text-center ">
+    <header class="header__wrapper" style="background-color: rgba(0, 153, 219, 0.10);">
+        <div class="container container__wraper py-lg-5">
+            <h1 class="display-1 text-capitalize text-dark fw-bold text-center py-lg-5">
                 About us
             </h1> 
         </div><!--.//container-fluid--> 
@@ -38,14 +38,27 @@
                      <h2 class="fs-3 text-dark fw-semibold text-center text-lg-start">
                         Where Heartwarming Care Meets Professional Excellence, Right Here In Park Ridge Brisbane, And Gold Coast.
                     </h2>
-                    
                     <div class="d-flex align-items-center position-relative d-none d-lg-block">
+                        <div class="circle__1 position-absolute circle rounded-circle">
+                            <img src="assets/images/patient/patient-01.webp" class="img-fluid patient__thumb object-cover rounded-circle" alt="Patient thumb">
+                        </div>
+                        <div class="circle__2 position-absolute circle rounded-circle">
+                            <img src="assets/images/patient/patient-02.webp" class="img-fluid patient__thumb object-cover rounded-circle" alt="Patient thumb">
+                        </div>
+                        <div class="circle__3 position-absolute circle rounded-circle">
+                            <img src="assets/images/patient/patient-03.webp" class="img-fluid patient__thumb object-cover rounded-circle" alt="Patient thumb">
+                        </div> 
+                        <div class="border_right position-absolute"></div>
+                        <div class="content__position text-primary lead fw-semibold position-absolute">2800+ SATISFIED PATIENTS</div>
+                    </div> 
+                    
+                    <!-- <div class="d-flex align-items-center position-relative d-none d-lg-block">
                         <div class="circle__1 position-absolute"></div>
                         <div class="circle__2 position-absolute"></div>
                         <div class="circle__3 position-absolute"></div> 
                         <div class="border_right position-absolute"></div>
                         <div class="content__position text-primary lead fw-semibold position-absolute">2800+ SATISFIED PATIENTS</div>
-                    </div>  
+                    </div>   -->
                 </div><!--//.col-->
                 <div class="col-lg-5">
                     <p class="text-dark mb-3 mb-lg-4 text-center text-lg-start">
