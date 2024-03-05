@@ -23,7 +23,7 @@
                     <ul class="dropdown-menu p-2 rounded-3 border-0 bg-white overflow-hidden" aria-labelledby="drop2">   
                         <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="<?php echo $base_url;?>community-nursing.php">Excellence in Community Nursing</a></li>
                         <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="<?php echo $base_url;?>assist-personal-activities.php">Assist Personal Activities</a></li>
-                        <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="#">High Intensity Daily Personal Activities</a></li> 
+                        <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="<?php echo $base_url;?>high-intensity-daily-activities.php">High Intensity Daily Personal Activities</a></li> 
                         <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="#">Household Tasks</a></li> 
                         <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="#">Community Participation </a></li> 
                         <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="#">Short Term Accommodation</a></li> 
@@ -79,7 +79,7 @@
                     <ul class="collapse" id="collapse1">  
                         <li><a href="<?php echo $base_url;?>community-nursing.php">Excellence in Community Nursing</a></li>
                         <li><a href="<?php echo $base_url;?>assist-personal-activities.php">Assist Personal Activities</a></li>
-                        <li><a href="#">High Intensity Daily Personal Activities</a></li> 
+                        <li><a href="<?php echo $base_url;?>high-intensity-daily-activities.php">High Intensity Daily Personal Activities</a></li> 
                         <li><a href="#">Household Tasks</a></li> 
                         <li><a href="#">Community Participation </a></li> 
                         <li><a href="#">Short Term Accommodation</a></li> 
