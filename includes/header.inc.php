@@ -1,5 +1,7 @@
       
-    <nav class="navbar navbar-expand-xl smart-scroll py-2" id="mainNav">
+    <nav class="navbar navbar-expand-xl smart-scroll py-2 <?php if (isset($menuType) && $menuType == 'fixed') {
+        echo "position-fixed";
+    } ?>" id="mainNav">
         <div class="container">   
             <a href="<?php echo $base_url;?>" class="navbar-brand p-0 m-0 d-inline-block" aria-label="<?php echo $site_name;?>" title="<?php echo $site_name;?>">
                 <img src="<?php echo $base_url;?>assets/images/logo.webp?v=1" width="250" height="103" alt="<?php echo $site_name;?>">

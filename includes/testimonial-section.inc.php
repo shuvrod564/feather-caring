@@ -1,115 +1,51 @@
-
-    <section class="pt-5 pb-4 position-relative">
-        <div class="container">
-            <div class="row g-4 g-lg-5">
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="py-4 py-lg-5 my-5 position-relative">
-                        <img src="assets/images/home/testimonial/quote.svg" class="img-fluid position-absolute top-50 start-50 translate-middle" width="280" height="220" style="pointer-events:none" alt="Quote">
-                        <h3 class="text-primary fw-medium mb-3">Client Testimonials</h3> 
-                        <p class="fs-13 mb-4" style="color: #5C5C5C;">
-                            We offer a range of services that follow the medicines and methods that Ayurveda prescribes since ancient times.
-                        </p>
-                        <a class="btn btn-outline-primary fs-13 px-3 py-2 height sm" style="color: #DEEFDB;" href="#">VIEW ALL</a>
-                    </div>
-                </div>
-                <div class="col-lg-9 position-relative">
-                    <div class="bg-primary py-3 py-md-4 py-lg-5 ps-3 ps-md-4 pe-4 pe-lg-0 testi__slider__box__right__aliged">  
-                        <div class="owl-carousel testimonialSlider position-relative  mb-3"> 
-                            <div class="bg-white px-4 px-lg-5 py-3 py-lg-4"> 
-                                <div class="authore__box d-flex align-items-center">
-                                    <figure class="thumbnail mb-0">
-                                        <img 
-                                            class="img-fluid rounded-circle" 
-                                            width="70" height="70" 
-                                            src="assets/images/home/testimonial/Labin-1.webp" 
-                                            alt="Labin"
-                                        >
-                                    </figure>
-                                    <div class="caption ps-3 ps-lg-4"> 
-                                        <p class="lead mb-0 fw-semibold" style="color: #60B14E;">
-                                            Labin
-                                        </p>
-                                        <span class="d-block fs-13 fw-medium" style="color: #A5A5A5;">Dubai</span>
-                                    </div>
-                                </div> 
-                                
-                                <p class="fs-13 pt-3 mb-0" style="color: #919191;">
-                                    I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
-                                </p> 
-                            </div><!--//.testi__card-->     
-                            <div class="bg-white px-4 px-lg-5 py-3 py-lg-4"> 
-                                <div class="authore__box d-flex align-items-center">
-                                    <figure class="thumbnail mb-0">
-                                        <img 
-                                            class="img-fluid rounded-circle" 
-                                            width="70" height="70" 
-                                            src="assets/images/home/testimonial/Labin-2.webp" 
-                                            alt="Labin"
-                                        >
-                                    </figure>
-                                    <div class="caption ps-3 ps-lg-4"> 
-                                        <p class="lead mb-0 fw-semibold" style="color: #60B14E;">
-                                            Labin
-                                        </p>
-                                        <span class="d-block fs-13 fw-medium" style="color: #A5A5A5;">Dubai</span>
-                                    </div>
-                                </div> 
-                                
-                                <p class="fs-13 pt-3 mb-0" style="color: #919191;">
-                                    I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
-                                </p> 
-                            </div><!--//.testi__card-->  
-                            <div class="bg-white px-4 px-lg-5 py-3 py-lg-4"> 
-                                <div class="authore__box d-flex align-items-center">
-                                    <figure class="thumbnail mb-0">
-                                        <img 
-                                            class="img-fluid rounded-circle" 
-                                            width="70" height="70" 
-                                            src="assets/images/home/testimonial/Labin-3.webp" 
-                                            alt="Labin"
-                                        >
-                                    </figure>
-                                    <div class="caption ps-3 ps-lg-4"> 
-                                        <p class="lead mb-0 fw-semibold" style="color: #60B14E;">
-                                            Labin
-                                        </p>
-                                        <span class="d-block fs-13 fw-medium" style="color: #A5A5A5;">Dubai</span>
-                                    </div>
-                                </div> 
-                                
-                                <p class="fs-13 pt-3 mb-0" style="color: #919191;">
-                                    I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
-                                </p> 
-                            </div><!--//.testi__card-->  
-                            <div class="bg-white px-4 px-lg-5 py-3 py-lg-4"> 
-                                <div class="authore__box d-flex align-items-center">
-                                    <figure class="thumbnail mb-0">
-                                        <img 
-                                            class="img-fluid rounded-circle" 
-                                            width="70" height="70" 
-                                            src="assets/images/home/testimonial/Labin-1.webp" 
-                                            alt="Labin"
-                                        >
-                                    </figure>
-                                    <div class="caption ps-3 ps-lg-4"> 
-                                        <p class="lead mb-0 fw-semibold" style="color: #60B14E;">
-                                            Labin
-                                        </p>
-                                        <span class="d-block fs-13 fw-medium" style="color: #A5A5A5;">Dubai</span>
-                                    </div>
-                                </div> 
-                                
-                                <p class="fs-13 pt-3 mb-0" style="color: #919191;">
-                                    I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
-                                </p> 
-                            </div><!--//.testi__card-->
-                            
-                        </div><!--.//carousel-->   
-                    </div>
-                </div><!--//.col-->
-            </div><!--//.row-->
+<section class="py-4 py-lg-5 plaholder__testi">
+        <div class="container mt-lg-4">
+            <div class="text-center">
+                <p class="lead text-primary fw-semibold mb-0">FEEDBACKS</p>
+                <h2 class="fs-1 text-27 fw-semibold mb-4">Stories From Our Patients</h2>
+            </div>
+            <div class="col-lg-10 position__img p-lg-5 p-4 d-flex align-items-end justify-content-center mx-auto overflow-hidden" style="background: url(assets/images/home/testi-bg-thumbnail.webp) no-repeat center center / cover;
+            box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.41);">
+                <div class="testi__box col-lg-9 col-xl-8 col-12 me-auto" style="background-color: #3BA9E2;">
+                    <div class="owl-carousel testimonialSlider">
+                        <div class=""> 
+                            <div class="d-flex align-items-center gap-3 mb-2 author__box">
+                                <img class="img-fluid object-cover" width="97" height="97" src="assets/images/testimonial/client-thumb.webp" alt="client thumb">
+                                <div class="client__box col">
+                                    <span class="d-block fs-4 text-white fw-medium">Labin</span>
+                                    <span class="d-block fs-15 text-white fw-medium">Dubai</span>
+                                </div>
+                            </div>
+                            <p class="text-white fs-15">
+                                “I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
+                            </p>
+                        </div>
+                        <div class=""> 
+                            <div class="d-flex align-items-center gap-3 mb-2 author__box">
+                                <img class="img-fluid object-cover" width="97" height="97" src="assets/images/testimonial/client-thumb.webp" alt="client thumb">
+                                <div class="client__box col">
+                                    <span class="d-block fs-4 text-white fw-medium">Labin</span>
+                                    <span class="d-block fs-15 text-white fw-medium">Dubai</span>
+                                </div>
+                            </div>
+                            <p class="text-white fs-15">
+                                “I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
+                            </p>
+                        </div>
+                        <div class=""> 
+                            <div class="d-flex align-items-center gap-3 mb-2 author__box">
+                                <img class="img-fluid object-cover" width="97" height="97" src="assets/images/testimonial/client-thumb.webp" alt="client thumb">
+                                <div class="client__box col">
+                                    <span class="d-block fs-4 text-white fw-medium">Labin</span>
+                                    <span class="d-block fs-15 text-white fw-medium">Dubai</span>
+                                </div>
+                            </div>
+                            <p class="text-white fs-15">
+                                “I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
+                            </p>
+                        </div>
+                    </div> 
+                </div> 
+            </div><!--//.col-lg-10-->
         </div><!--//.container-->
     </section>
-
-

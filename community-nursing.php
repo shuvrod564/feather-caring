@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"> 
     <title>Excellence in Community Nursing</title>
-    <link rel="canonical" href="<?php echo $base_url;?>" />
+    <link rel="canonical" href="<?php echo $base_url;?>community-nursing.php" />
  
     <!-- All Stylesheets --> 
     <?php $folder='root'; include_once('includes/stylesheets.inc.php'); ?> 
@@ -17,14 +17,13 @@
     <!-- Navigation Menu --> 
     <?php $folder='root'; include_once('includes/header.inc.php'); ?>  
         
-   
-
+    
     <!-- Header Wrapper Start -->
-    <header class="header__wrapper" style="background-color: rgba(0, 153, 219, 0.10);">
-        <div class="container container__wraper py-lg-5 z-index">
-            <h1 class="fs-1 text-capitalize text-dark fw-bold text-center py-lg-5">
+    <header class="py-5" style="background-color: rgba(0, 153, 219, 0.10);">
+        <div class="container py-lg-5 z-index">
+            <p class="display-4 text-capitalize text-dark fw-bold text-center">
                 Our services
-            </h1> 
+            </p> 
         </div><!--.//container-fluid--> 
     </header>
     <!-- Header Wrapper End --> 
@@ -34,15 +33,13 @@
         <div class="container">
             <div class="row g-4 g-xxl-5">
                 <div class="col-lg-6">
-                    <p class="lead text-primary fw-semibold text-center text-lg-start mb-0">WELCOME TO FEATHER CARING</p>
-                     <h2 class="fs-2 text-dark fw-semibold text-center text-lg-start mb-3">
+                    <h1 class="fs-2 text-dark fw-semibold text-center text-lg-start mb-3">
+                        <span class="lead text-primary fw-semibold text-center text-lg-start mb-0 d-block">WELCOME TO FEATHER CARING</span>
                         Excellence In Community Nursing
-                    </h2>
+                    </h1>
                     <p class="text-dark text-center text-lg-start">
                         At Feather Caring, nestled in the heart of Logan and extending our wings across Brisbane, Scenic Rim, and the Gold Coast, we're dedicated to providing community nursing services that are a cut above the rest. Our commitment to your health and well-being is unparalleled, offering personalized, government-approved care services designed around your unique needs.
-                    </p>
-                    
-                     
+                    </p> 
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <p class="text-dark text-center text-lg-start">
@@ -50,27 +47,25 @@
                     </p> 
                 </div><!--//.col-->
             </div><!--//.row-->
-            <div class="row g-3 mt-3">
+            <div class="row g-3 mt-5 d-none d-md-flex">
                 <div class="col-lg-6 col-md-12 d-flex">
-                    <div class="care__card">
-                        <img class="img-fluid w-100 h-100" src="assets/images/home/heartwarming-care-01.webp" width="638" height="505" alt="fether thumbnail"> 
-                    </div>
+                    <img class="img-fluid w-100 h-100 object-cover" src="assets/images/home/heartwarming-care-01.webp" width="638" height="505" alt="fether thumbnail"  style="border-radius: 1.25rem;object-position: center right;">  
                 </div><!--//.col-->
                 <div class="col-lg-6 d-flex">
                     <div class="row g-3 w-100">
                         <div class="col-md-6 col-lg-6 ">
-                            <div class="care__card">
-                                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-02.webp" width="302" height="505" alt="fether thumbnail">  
-                            </div>
+                            <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-02.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">   
                         </div>
                         <div class="col-md-6 col-lg-6">
-                            <div class="care__card">
-                                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-03.webp" width="302" height="505" alt="fether thumbnail">  
-                            </div>
+                            <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-03.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">   
                         </div> 
                     </div>
                 </div><!--//.col-->
             </div><!--//.row-->
+            <div class="owl-carousel galleryCarousel mt-4 d-md-none">
+                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-02.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">   
+                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-03.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">  
+            </div>
         </div><!--//.container-->
     </section>
     <!-- WELCOME TO FEATHER CARING End --> 

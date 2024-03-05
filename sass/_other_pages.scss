@@ -1,22 +1,6 @@
 
 
-
-
-.page__header {
-    min-height: 13rem; 
-    border: 1px solid #707070;
-}
-
-  @media (max-width:576px) {
-    .page__header {
-        min-height: 10rem; 
-        padding: 4rem 0;
-        .h1{
-            font-size: 2.5rem;
-        } 
-    }
-}
-
+  
 .top__title{
     color: #383838;
     font-size: 2.25rem !important; 
