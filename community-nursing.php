@@ -22,7 +22,7 @@
     <!-- Header Wrapper Start -->
     <header class="header__wrapper" style="background-color: rgba(0, 153, 219, 0.10);">
         <div class="container container__wraper py-lg-5 z-index">
-            <h1 class="display-2 text-capitalize text-dark fw-bold text-center py-lg-5">
+            <h1 class="fs-1 text-capitalize text-dark fw-bold text-center py-lg-5">
                 Our services
             </h1> 
         </div><!--.//container-fluid--> 

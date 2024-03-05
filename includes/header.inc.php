@@ -24,9 +24,9 @@
                         <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="<?php echo $base_url;?>community-nursing.php">Excellence in Community Nursing</a></li>
                         <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="<?php echo $base_url;?>assist-personal-activities.php">Assist Personal Activities</a></li>
                         <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="<?php echo $base_url;?>high-intensity-daily-activities.php">High Intensity Daily Personal Activities</a></li> 
-                        <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="#">Household Tasks</a></li> 
-                        <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="#">Community Participation </a></li> 
-                        <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="#">Short Term Accommodation</a></li> 
+                        <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="<?php echo $base_url;?>household-tasks.php">Household Tasks</a></li> 
+                        <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="<?php echo $base_url;?>community-participation.php">Community Participation </a></li> 
+                        <li><a class="dropdown-item fw-medium rounded-3 text-uppercase px-2" href="<?php echo $base_url;?>short-term-accommodation.php">Short Term Accommodation</a></li> 
                     </ul> 
                 </li>           
                 <li class="nav-item dropdown ms-xxl-5 ms-3"> 
@@ -80,9 +80,9 @@
                         <li><a href="<?php echo $base_url;?>community-nursing.php">Excellence in Community Nursing</a></li>
                         <li><a href="<?php echo $base_url;?>assist-personal-activities.php">Assist Personal Activities</a></li>
                         <li><a href="<?php echo $base_url;?>high-intensity-daily-activities.php">High Intensity Daily Personal Activities</a></li> 
-                        <li><a href="#">Household Tasks</a></li> 
-                        <li><a href="#">Community Participation </a></li> 
-                        <li><a href="#">Short Term Accommodation</a></li> 
+                        <li><a href="<?php echo $base_url;?>household-tasks.php">Household Tasks</a></li> 
+                        <li><a href="<?php echo $base_url;?>community-participation.php">Community Participation </a></li> 
+                        <li><a href="<?php echo $base_url;?>short-term-accommodation.php">Short Term Accommodation</a></li> 
                     </ul>
                 </li>  
                 <li><a href="#">Careers</a></li>  
