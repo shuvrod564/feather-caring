@@ -86,7 +86,7 @@
             </div><!--//.row-->
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/community-nursing/personalized-care-plans.webp" class="img-fluid" width="624" height="379" alt="Personalized Care Plans">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3"> Personalized Care Plans</h2>
@@ -97,7 +97,7 @@
             </div><!--//.row-->
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/community-nursing/compassionate-approach-care.webp" class="img-fluid" width="624" height="379" alt="A Compassionate Approach">
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">A Compassionate Approach to Care</h2>
@@ -108,7 +108,7 @@
             </div><!--//.row-->
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/community-nursing/comprehensive-community-nursing.webp" class="img-fluid" width="624" height="379" alt="Comprehensive">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Comprehensive Community Nursing Services</h2>
@@ -119,14 +119,14 @@
             </div><!--//.row-->
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/community-nursing/Specialized-Nursing.webp" class="img-fluid" width="624" height="397" alt="Specialized Nursing Care">
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start">Specialized Nursing Care</h2>
                     <p class="text-dark mb-3 text-center text-lg-start mb-0">
                         Our suite of specialized nursing care is designed to address a wide array of health conditions and requirements. From meticulous wound management that aids in faster healing to precise medication administration ensuring your treatment is on track, our care is tailored to meet your specific needs. We also offer palliative support, providing comfort and dignity to those in the final stages of a life-limiting condition, alongside continence management to improve quality of life and maintain dignity.
                     </p>
-                    <p class="text-dark text-center text-lg-start">
+                    <p class="text-dark text-center text-lg-start mb-0">
                         Our team is equipped with the skills and knowledge to handle complex health situations, ensuring you receive the highest standard of care. Whether it's managing chronic conditions or providing post-operative care, Feather Caring is here to support you with a comprehensive approach to health and wellness.
                     </p>
                 </div><!--//.col-->
@@ -140,7 +140,7 @@
         <div class="container-fluid px-0">
             <div class="row g-0">
                 <div class="col-lg-6">
-                    <img class="img-fluid w-100 h-100" width="906" height="495" src="assets/images/home/home-care-services.webp" alt="home care services"> 
+                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100 h-100" width="906" height="495" alt="home care services"> 
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <div class="img__card h-100 d-flex align-items-center justify-content-center" style="background-color: #3BA9E2;">
@@ -169,7 +169,7 @@
         <div class="container">
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="Meet Our Expert Team"> 
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Meet Our Expert Team</h2>
@@ -180,18 +180,18 @@
             </div><!--//.row-->
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/community-nursing/qualified-and-compassionate.webp" class="img-fluid" width="624" height="409" alt="Qualified and Compassionate">
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Qualified and Compassionate Nurses</h2>
-                    <p class="text-dark text-center text-lg-start">
+                    <p class="text-dark text-center text-lg-start mn-0">
                         Our stringent selection process ensures that each member of our team not only meets but exceeds the standards of qualification and experience required in the healthcare sector. Yet, what truly defines our team is their compassion and dedication. They're not just healthcare providers; they are caring companions, advocates for health, and unwavering supporters of our clients and their families. This perfect blend of professional excellence and genuine care ensures that every interaction with Feather Caring is both beneficial and enriching.
                     </p>
                 </div><!--//.col-->
             </div><!--//.row-->
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/community-nursing/ongoing-professional-development.webp" class="img-fluid" width="624" height="436" alt="Ongoing Professional Development">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start">Ongoing Professional Development</h2>
@@ -212,13 +212,13 @@
         <div class="container">
             <div class="row g-4 g-lg-0 gx-4 gx-lg-5 align-items-center">
                 <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid w-100" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="Tailored Care for the Logan"> 
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">
                         Tailored Care for the Logan, Brisbane, Scenic Rim, and Gold Coast Communities
                     </h2>
-                    <p class="text-dark text-center text-lg-start">
+                    <p class="text-dark text-center text-lg-start mb-0">
                         Feather Caring is deeply rooted in the heart of the Logan, Brisbane, Scenic Rim, and Gold Coast communities. Our services are not just about providing care; they're about offering support that resonates with the unique fabric of each community we touch. Our approach goes beyond the conventional, as we weave cultural competence and sensitivity into every aspect of our care.
                     </p>
                 </div><!--//.col-->
@@ -233,7 +233,7 @@
         <div class="container">
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid w-100" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="Tailored Care for the Logan"> 
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3"> Understanding Local Needs</h2>
@@ -273,7 +273,7 @@
         <div class="container">
             <div class="row g-4 gx-4 gx-lg-5 align-items-center">
                 <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid w-100" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="The Feather Caring Difference"> 
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">The Feather Caring Difference</h2>
@@ -284,7 +284,7 @@
             </div><!--//.row-->
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid w-100" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/community-nursing/trustworthy-and-reliable.webp" class="img-fluid w-100" width="624" height="416" alt="A Trustworthy and Reliable">
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">A Trustworthy and Reliable Partner in Care</h2>
@@ -295,7 +295,7 @@
             </div><!--//.row--> 
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid w-100" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/community-nursing/innovation-community.webp" class="img-fluid w-100" width="624" height="417" alt="Innovation in Community Nursing">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Innovation in Community Nursing</h2>
@@ -333,7 +333,7 @@
         <div class="container">
             <div class="row g-4 gx-4 gx-lg-5 align-items-center">
                 <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid w-100" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/community-nursing/seamless-access.webp" class="img-fluid w-100" width="624" height="417" alt="Seamless Access to Our Services">
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Seamless Access to Our Services</h2>
@@ -344,7 +344,7 @@
             </div><!--//.row--> 
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid w-100" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="The Feather Caring Difference"> 
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Easy Steps to Get Started</h2>
@@ -355,7 +355,7 @@
             </div><!--//.row--> 
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid w-100" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="The Feather Caring Difference"> 
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Understanding Your Funding Options</h2>
@@ -366,7 +366,7 @@
             </div><!--//.row--> 
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid w-100" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="The Feather Caring Difference"> 
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Conclusion</h2>

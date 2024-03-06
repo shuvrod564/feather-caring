@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"> 
     <title>Welcome to Feather Caring Short Term Accommodation</title>
-    <link rel="canonical" href="<?php echo $base_url;?>" />
+    <link rel="canonical" href="<?php echo $base_url;?>short-term-accommodation.php" />
  
     <!-- All Stylesheets --> 
     <?php $folder='root'; include_once('includes/stylesheets.inc.php'); ?> 
@@ -521,30 +521,7 @@
     <!-- FAQ'S section End --> 
    
     <!-- FEEDBACKS section Start -->
-    <section class="py-5 plaholder__testi">
-        <div class="container mt-lg-4">
-            <div class="text-center">
-                <p class="lead text-primary fw-semibold mb-0">FEEDBACKS</p>
-                <h2 class="fs-1 text-27 fw-semibold mb-4">Stories From Our Patients</h2>
-            </div>
-            <div class="col-lg-10 position__img ps-0 pb-0 ps-lg-5 pb-lg-5 d-flex align-items-end justify-content-center mx-auto" style="background: url(assets/images/home/testi-bg-thumbnail.webp) no-repeat center center / cover;
-            box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.41);">
-                <!-- <div class="owl-carousel testimonialSlider"></div>  -->
-                <div class="testi__box col-lg-7 me-auto" style="background-color: #3BA9E2;">
-                    <div class="d-flex align-items-center gap-4 mb-2">
-                        <img class="img-fluid" width="97" height="97" src="assets/images/testimonial/client-thumb.webp" alt="client thumb">
-                        <div class="client__box">
-                            <span class="d-block fs-4 text-white fw-medium">Labin</span>
-                            <span class="d-block fs-15 text-white fw-medium">Dubai</span>
-                        </div>
-                    </div>
-                    <p class="text-white fs-15">
-                        “I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
-                    </p>
-                </div> 
-            </div><!--//.col-lg-10-->
-        </div><!--//.container-->
-    </section>
+    <?php include_once("includes/testimonial-section.inc.php"); ?>
     <!-- FEEDBACKS section End -->
    
 
