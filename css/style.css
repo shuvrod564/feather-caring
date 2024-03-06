@@ -75,6 +75,20 @@
 .service__card .title__box {
   min-height: 16.562rem;
 }
+.service__card .title {
+  min-height: 3rem;
+}
+.service__card .desc {
+  max-height: 15rem;
+  overflow-y: auto;
+}
+
+.servicesCarousel .owl-stage {
+  display: flex;
+}
+.servicesCarousel .owl-stage .owl-item {
+  display: flex;
+}
 
 .feather__caring .patient__thumb {
   width: 4.75rem;
@@ -184,6 +198,7 @@
   border-radius: 43px !important;
   background-color: rgba(59, 170, 226, 0.1);
   font-size: 1.15rem;
+  font-weight: 500;
   padding: 0rem 2rem;
 }
 .accordion .accordion-item .accordion-button:not(.collapsed) {
@@ -198,8 +213,7 @@
   background-image: none;
 }
 .accordion .accordion-item .accordion-body {
-  padding-top: 0;
-  font-size: 0.937rem;
+  padding: 0 2rem 1.5rem;
 }
 .accordion .accordion-item .accordion-body p:last-child {
   margin-bottom: 0;

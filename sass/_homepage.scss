@@ -83,6 +83,18 @@
     .title__box{
         min-height: 16.562rem;
     } 
+    .title { min-height: 3rem; }
+    .desc { max-height: 15rem;overflow-y: auto; }
+}
+
+.servicesCarousel {
+    .owl-stage {
+        display: flex;
+
+        .owl-item {
+            display: flex;
+        }
+    }
 }
 
 .feather__caring{
@@ -211,7 +223,7 @@
         border: 0;box-shadow: none !important;min-height: 5rem;
         border-radius:  43px !important;
         background-color: rgba(59, 170, 226, 0.10);   
-        font-size: 1.15rem;
+        font-size: 1.15rem;font-weight: 500;
         padding: 0rem 2rem;
         &:not(.collapsed) {
             color:var(--dark); 
@@ -227,8 +239,8 @@
              
         }  
     }
-    .accordion-body {
-        padding-top: 0;font-size: 0.937rem;
+    .accordion-body { 
+        padding: 0 2rem 1.5rem;
 
         p:last-child { margin-bottom: 0; }
     }

@@ -22,7 +22,7 @@
     <!-- Header Wrapper Start -->
     <header class="header__wrapper" style="background-color: rgba(0, 153, 219, 0.10);">
         <div class="container container__wraper py-lg-5 z-index">
-            <h1 class="fs-1 text-capitalize text-dark fw-bold text-center py-lg-5">
+            <h1 class="display-5 text-capitalize text-dark fw-bold text-center py-lg-5">
                 Assist Personal Activities
             </h1> 
         </div><!--.//container-fluid--> 
@@ -46,25 +46,7 @@
                     </p> 
                 </div><!--//.col-->
             </div><!--//.row-->
-            <div class="row g-3 mt-5 d-none d-md-flex">
-                <div class="col-lg-6 col-md-12 d-flex">
-                    <img class="img-fluid w-100 h-100 object-cover" src="assets/images/home/heartwarming-care-01.webp" width="638" height="505" alt="fether thumbnail"  style="border-radius: 1.25rem;object-position: center right;">  
-                </div><!--//.col-->
-                <div class="col-lg-6 d-flex">
-                    <div class="row g-3 w-100">
-                        <div class="col-md-6 col-lg-6 ">
-                            <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-02.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">   
-                        </div>
-                        <div class="col-md-6 col-lg-6">
-                            <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-03.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">   
-                        </div> 
-                    </div>
-                </div><!--//.col-->
-            </div><!--//.row-->
-            <div class="owl-carousel galleryCarousel mt-4 d-md-none">
-                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-02.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">   
-                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-03.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">  
-            </div>
+            <?php include_once("includes/page-gallery-section.inc.php"); ?> 
         </div><!--//.container-->
     </section>
     <!-- WELCOME TO FEATHER CARING End -->
@@ -110,7 +92,7 @@
     <!-- Why Choose Feather Caring End -->
 
     <!-- Our Services section Start -->
-    <section class="py-4 py-lg-5 services__wraper"> 
+    <section class="py-4 py-lg-5 scroller"> 
         <div class="container">
             <p class="lead text-primary fw-semibold text-center text-lg-start mb-0">Our Services</p>
             <h2 class="fs-2 text-dark fw-bold  mb-3">Daily Personal Activities Assistance</h2>
@@ -119,97 +101,55 @@
             </p>
             <div class="owl-carousel servicesCarousel">
 
-                <div class="service__card w-100">
-                    <a href="#" class="d-block">
-                        <img 
-                            src="assets/images/home/community-nursing.webp" 
-                            width="406" height="213" 
-                            alt="Community"
-                            class="img-fluid w-100"
-                        >
-                    </a>
-                    <div class="title__box p-3 px-md-4">
-                        <h3 class="lead-sm fw-bold my-3">
-                            <a href="#" class="text-dark">Hygiene and Grooming</a>
-                        </h3>
-                        <p class="desc mb-0 fs-13 text-dark">
-                            Imagine starting each day feeling refreshed, confident, and ready to take on the world. Our hygiene and grooming services are crafted to ensure just that. With a keen eye for your personal preferences and the utmost respect for your privacy, our caregivers assist with bathing, dressing, and personal care. We’re here to support you in feeling your best, every single day.
-                        </p> 
-                    </div>  
+                <div class="service__card p-3 p-sm-4 w-100"> 
+                    <h3 class="lead title fw-bold mb-3 text-dark">
+                        Hygiene and Grooming
+                    </h3>
+                    <p class="desc mb-0 desc text-dark">
+                        Imagine starting each day feeling refreshed, confident, and ready to take on the world. Our hygiene and grooming services are crafted to ensure just that. With a keen eye for your personal preferences and the utmost respect for your privacy, our caregivers assist with bathing, dressing, and personal care. We’re here to support you in feeling your best, every single day.
+                    </p> 
                 </div> 
                 
-                <div class="service__card w-100">
-                    <a href="#" class="d-block">
-                        <img 
-                            src="assets/images/home/assist-personal-activities.webp" 
-                            width="406" height="213"
-                            alt="Assist Personal"
-                            class="img-fluid w-100"
-                        >
-                    </a>
-                    <div class="title__box p-3 px-md-4">
-                        <h3 class="lead-sm fw-bold my-3">
-                            <a href="#" class="text-dark">Meal Preparation and Feeding</a>
-                        </h3>
-                        <p class="desc mb-0 fs-13 text-dark">
-                            There’s something deeply comforting about a meal prepared just the way you like it. Our dedicated team takes pride in crafting nutritious meals that cater to your unique tastes and dietary requirements. From the selection of ingredients to the joy of sharing a meal, we're with you every step of the way, ensuring you have the nourishment you need to thrive.
-                        </p> 
-                    </div>  
+                <div class="service__card p-3 p-sm-4 w-100"> 
+                    <h3 class="lead title fw-bold mb-3 text-dark">
+                        Meal Preparation and Feeding
+                    </h3>
+                    <p class="desc mb-0 desc text-dark">
+                        There’s something deeply comforting about a meal prepared just the way you like it. Our dedicated team takes pride in crafting nutritious meals that cater to your unique tastes and dietary requirements. From the selection of ingredients to the joy of sharing a meal, we're with you every step of the way, ensuring you have the nourishment you need to thrive.
+                    </p> 
                 </div> 
                 
-                <div class="service__card w-100">
-                    <a href="#" class="d-block">
-                        <img 
-                            src="assets/images/home/high-intensity-daily.webp" 
-                            width="406" height="213" 
-                            alt="High Intensity"
-                            class="img-fluid"
-                        >
-                    </a>
-                    <div class="title__box p-3 px-md-4">
-                        <h3 class="lead-sm fw-bold my-3">
-                            <a href="#" class="text-dark"> Mobility and Transferring Support</a>
-                        </h3>
-                        <p class="desc mb-0 fs-13 text-dark">
-                            Your home and community should be spaces of comfort and safety. Our assistance with mobility and transferring is designed to ensure you can navigate your surroundings with ease. Whether it’s moving around your home or venturing into the community, our support aims to promote your independence and prevent falls, keeping you safe and comfortable at all times.
-                        </p> 
-                    </div>  
+                <div class="service__card p-3 p-sm-4 w-100">  
+                    <h3 class="lead title fw-bold mb-3 text-dark">
+                         Mobility and Transferring Support
+                    </h3>
+                    <p class="desc mb-0 desc text-dark">
+                        Your home and community should be spaces of comfort and safety. Our assistance with mobility and transferring is designed to ensure you can navigate your surroundings with ease. Whether it’s moving around your home or venturing into the community, our support aims to promote your independence and prevent falls, keeping you safe and comfortable at all times.
+                    </p> 
                 </div>   
-                <div class="service__card w-100">
-                    <a href="#" class="d-block">
-                        <img 
-                            src="assets/images/home/high-intensity-daily.webp" 
-                            width="406" height="213" 
-                            alt="High Intensity"
-                            class="img-fluid"
-                        >
-                    </a>
-                    <div class="title__box p-3 px-md-4">
-                        <h3 class="lead-sm fw-bold my-3">
-                            <a href="#" class="text-dark"> Medication Management</a>
-                        </h3>
-                        <p class="desc mb-0 fs-13 text-dark">
-                            Health management can often feel like navigating a complex puzzle. Our caregivers are here to simplify this process. Trained in medication management, they ensure that you are taking the right medication at the right times, offering peace of mind to you and your loved ones. Let us take care of the details, so you can focus on enjoying life.
-                        </p> 
-                    </div>  
+                <div class="service__card p-3 p-sm-4 w-100">   
+                    <h3 class="lead title fw-bold mb-3 text-dark">
+                         Medication Management
+                    </h3>
+                    <p class="desc mb-0 desc text-dark">
+                        Health management can often feel like navigating a complex puzzle. Our caregivers are here to simplify this process. Trained in medication management, they ensure that you are taking the right medication at the right times, offering peace of mind to you and your loved ones. Let us take care of the details, so you can focus on enjoying life.
+                    </p> 
+                    </div>   
+                <div class="service__card p-3 p-sm-4 w-100">   
+                    <h3 class="lead title fw-bold mb-3 text-dark">
+                        Social and Community Participation
+                    </h3>
+                    <p class="desc mb-0 desc text-dark">
+                        Life’s true essence lies in the connections we make and the experiences we share. Feather Caring is passionate about supporting your active engagement within the community. From attending local events and participating in group activities to enjoying a leisurely walk in the park, we encourage and facilitate your participation in social outings. It’s about more than just being present; it’s about enriching your life with meaningful interactions and experiences.
+                    </p> 
                 </div>   
-                <div class="service__card w-100">
-                    <a href="#" class="d-block">
-                        <img 
-                            src="assets/images/home/high-intensity-daily.webp" 
-                            width="406" height="213" 
-                            alt="High Intensity"
-                            class="img-fluid"
-                        >
-                    </a>
-                    <div class="title__box p-3 px-md-4">
-                        <h3 class="lead-sm fw-bold my-3">
-                            <a href="#" class="text-dark">Social and Community Participation</a>
-                        </h3>
-                        <p class="desc mb-0 fs-13 text-dark">
-                            Life’s true essence lies in the connections we make and the experiences we share. Feather Caring is passionate about supporting your active engagement within the community. From attending local events and participating in group activities to enjoying a leisurely walk in the park, we encourage and facilitate your participation in social outings. It’s about more than just being present; it’s about enriching your life with meaningful interactions and experiences.
-                        </p> 
-                    </div>  
+                <div class="service__card p-3 p-sm-4 w-100"> 
+                    <h3 class="lead title fw-bold mb-3 text-dark">
+                        Social and Community Participation
+                    </h3>
+                    <p class="desc mb-0 desc text-dark">
+                        Life’s true essence lies in the connections we make and the experiences we share. Feather Caring is passionate about supporting your active engagement within the community. From attending local events and participating in group activities to enjoying a leisurely walk in the park, we encourage and facilitate your participation in social outings. It’s about more than just being present; it’s about enriching your life with meaningful interactions and experiences.
+                    </p> 
                 </div>   
             </div><!--.//carousel--> 
         </div><!--.//container-->
@@ -398,7 +338,7 @@
                 <div class="accordion" id="accordionExampleone">
                     <div class="accordion-item rounded-0 border-0">
                         <h3 class="accordion-header" id="headingOne1">
-                            <button class="accordion-button text-dark fw-normal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
                                 What types of services does Feather Caring offer?
                             </button>
                         </h3>
@@ -412,7 +352,7 @@
                     </div>
                     <div class="accordion-item rounded-0 border-0">
                         <h3 class="accordion-header" id="headingTwo2">
-                            <button class="accordion-button collapsed text-dark fw-normal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
                                 How does Feather Caring tailor services to individual needs?
                             </button>
                         </h3>
@@ -426,7 +366,7 @@
                     </div>
                     <div class="accordion-item rounded-0 border-0">
                         <h3 class="accordion-header" id="headingThree3">
-                            <button class="accordion-button collapsed text-dark fw-normal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
                                 Are Feather Caring’s caregivers trained and certified?
                             </button>
                         </h3>
@@ -440,7 +380,7 @@
                     </div>
                     <div class="accordion-item rounded-0 border-0">
                         <h3 class="accordion-header" id="headingFour4">
-                            <button class="accordion-button collapsed text-dark fw-normal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour4" aria-expanded="false" aria-controls="collapseFour4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour4" aria-expanded="false" aria-controls="collapseFour4">
                                 Can services be adjusted after they begin?
                             </button>
                         </h3>
@@ -454,7 +394,7 @@
                     </div> 
                     <div class="accordion-item rounded-0 border-0">
                         <h3 class="accordion-header" id="headingFive5">
-                            <button class="accordion-button collapsed text-dark fw-normal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive5" aria-expanded="false" aria-controls="collapseFive5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive5" aria-expanded="false" aria-controls="collapseFive5">
                                 How does Feather Caring ensure the quality of its services?
                             </button>
                         </h3>
@@ -473,30 +413,7 @@
     <!-- FAQ'S section End --> 
    
     <!-- FEEDBACKS section Start -->
-    <section class="py-4 py-lg-5 plaholder__testi">
-        <div class="container mt-lg-4">
-            <div class="text-center">
-                <p class="lead text-primary fw-semibold mb-0">FEEDBACKS</p>
-                <h2 class="fs-1 text-27 fw-semibold mb-4">Stories From Our Patients</h2>
-            </div>
-            <div class="col-lg-10 position__img ps-0 pb-0 ps-lg-5 pb-lg-5 d-flex align-items-end justify-content-center mx-auto" style="background: url(assets/images/home/testi-bg-thumbnail.webp) no-repeat center center / cover;
-            box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.41);">
-                <!-- <div class="owl-carousel testimonialSlider"></div>  -->
-                <div class="testi__box col-lg-7 me-auto" style="background-color: #3BA9E2;">
-                    <div class="d-flex align-items-center gap-4 mb-2">
-                        <img class="img-fluid" width="97" height="97" src="assets/images/testimonial/client-thumb.webp" alt="client thumb">
-                        <div class="client__box">
-                            <span class="d-block fs-4 text-white fw-medium">Labin</span>
-                            <span class="d-block fs-15 text-white fw-medium">Dubai</span>
-                        </div>
-                    </div>
-                    <p class="text-white fs-15">
-                        “I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
-                    </p>
-                </div> 
-            </div><!--//.col-lg-10-->
-        </div><!--//.container-->
-    </section>
+    <?php include_once("includes/testimonial-section.inc.php"); ?>
     <!-- FEEDBACKS section End -->
    
 

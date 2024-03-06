@@ -66,6 +66,7 @@ body {
 .bg-dark { background-color: var(--dark) !important; }
 .bg-secondary { background-color: var(--secondary) !important;}
 .bg-gradient { background-color: rgba(215, 233, 243, 0.24) !important; }
+.bg-primary-light { background-color: rgba(0, 153, 219, 0.10); }
 .z-index { z-index: 99;position: relative; } 
 .round { border-radius: .875rem; } 
 .col--5 { flex: 0 0 20%;max-width: 20%; }
