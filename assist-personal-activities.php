@@ -46,62 +46,60 @@
                     </p> 
                 </div><!--//.col-->
             </div><!--//.row-->
-            <div class="row g-3 mt-3">
+            <div class="row g-3 mt-5 d-none d-md-flex">
                 <div class="col-lg-6 col-md-12 d-flex">
-                    <div class="care__card">
-                        <img class="img-fluid w-100 h-100" src="assets/images/home/heartwarming-care-01.webp" width="638" height="505" alt="fether thumbnail"> 
-                    </div>
+                    <img class="img-fluid w-100 h-100 object-cover" src="assets/images/home/heartwarming-care-01.webp" width="638" height="505" alt="fether thumbnail"  style="border-radius: 1.25rem;object-position: center right;">  
                 </div><!--//.col-->
                 <div class="col-lg-6 d-flex">
                     <div class="row g-3 w-100">
                         <div class="col-md-6 col-lg-6 ">
-                            <div class="care__card">
-                                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-02.webp" width="302" height="505" alt="fether thumbnail">  
-                            </div>
+                            <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-02.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">   
                         </div>
                         <div class="col-md-6 col-lg-6">
-                            <div class="care__card">
-                                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-03.webp" width="302" height="505" alt="fether thumbnail">  
-                            </div>
+                            <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-03.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">   
                         </div> 
                     </div>
                 </div><!--//.col-->
             </div><!--//.row-->
+            <div class="owl-carousel galleryCarousel mt-4 d-md-none">
+                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-02.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">   
+                <img class="img-fluid w-100" src="assets/images/home/heartwarming-care-03.webp" width="302" height="505" alt="fether thumbnail" style="border-radius: 1.25rem;">  
+            </div>
         </div><!--//.container-->
     </section>
     <!-- WELCOME TO FEATHER CARING End -->
     
     <!-- Why Choose Feather Caring Start -->
-    <section class="py-5">
+    <section class="py-5 scroller">
         <div class="container">
             <h2 class="fs-1 fw-semibold text-dark text-center mb-4 mb-lg-5">Why Choose Feather Caring?</h2>
             <div class="row g-4 gx-lg-3">
-                <div class="col-lg-4 d-flex">
+                <div class="col-lg-4 col-md-6 d-flex">
                     <div class="feather__card w-100">
                         <div class="title">
-                            <h3 class="fs-5 text-dark fw-semibold text-center text-lg-start mb-3">Tailored Personal Care Solutions</h3>
+                            <h3 class="fs-5 text-dark fw-semibold mb-3">Tailored Personal Care Solutions</h3>
                         </div>
-                        <p class="text-dark text-center text-lg-start mb-0">
+                        <p class="text-dark mb-0 overflow-y-auto" style="height:17rem;overflow:hidden auto;">
                             Recognizing the beautiful diversity of individual needs, we pride ourselves on crafting personalized care plans that perfectly align with the unique requirements of each client. Our approach is deeply rooted in the understanding that personal touches significantly elevate the care experience. We engage with you and your loved ones to meticulously tailor our services, ensuring that every aspect of your care is as individual as you are. This bespoke approach not only enhances your comfort but also fosters a sense of independence and wellbeing.
                         </p>
                     </div>
                 </div><!--//.col-->
-                <div class="col-lg-4 d-flex">
+                <div class="col-lg-4 col-md-6 d-flex">
                     <div class="feather__card w-100">
                         <div class="title">
-                            <h3 class="fs-5 text-dark fw-semibold text-center text-lg-start mb-3">Experienced and Compassionate Team</h3>
+                            <h3 class="fs-5 text-dark fw-semibold mb-3">Experienced and Compassionate Team</h3>
                         </div>
-                        <p class="text-dark text-center text-lg-start mb-0">
+                        <p class="text-dark mb-0 overflow-y-auto" style="height:17rem;overflow:hidden auto;">
                             Our team represents the heart of what we do. Comprising highly skilled professionals, each member brings a wealth of experience coupled with a genuine passion for making a tangible difference in the lives of those we support. It's this blend of expertise and empathy that sets our caregivers apart. We believe in building relationships based on trust, respect, and understanding, ensuring that your journey with us is marked by dignity and warmth. Our caregivers are not just providers; they're advocates, companions, and unwavering supporters of your independence.
                         </p>
                     </div>
                 </div><!--//.col-->
-                <div class="col-lg-4 d-flex">
+                <div class="col-lg-4 col-md-6 d-flex">
                     <div class="feather__card w-100">
                         <div class="title">
-                            <h3 class="fs-5 text-dark fw-semibold text-center text-lg-start mb-3">Comprehensive Support for a Fuller Life</h3>
+                            <h3 class="fs-5 text-dark fw-semibold mb-3">Comprehensive Support for a Fuller Life</h3>
                         </div>
-                        <p class="text-dark text-center text-lg-start mb-0">
+                        <p class="text-dark mb-0 overflow-y-auto" style="height:17rem;overflow:hidden auto;">
                             Life is for living, and at Feather Caring, we're dedicated to ensuring you live yours to the fullest. Our comprehensive range of services covers everything from daily hygiene assistance to enriching social and community engagement. We understand the importance of a holistic approach to care, one that nurtures not only physical needs but also emotional and social wellbeing. Whether it’s assistance with personal grooming, enjoying a meal, or participating in community events, we’re here to support you in leading a fulfilling life. Our mission is to ensure that no need goes unmet, wrapping our services around you to provide support that’s as inclusive and enriching as life itself.
                         </p>
                     </div>
@@ -223,7 +221,7 @@
         <div class="container">
             <div class="row g-4 gx-4 gx-lg-5 align-items-center">
                 <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/assist-personal-activities/Empowering-Independence.webp" class="img-fluid" width="624" height="379" alt="Empowering Independence">
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3"> Empowering Independence</h2>
@@ -234,10 +232,10 @@
             </div><!--//.row-->
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/assist-personal-activities/Personalized-Support-Plans.webp" class="img-fluid" width="624" height="379" alt="Personalized Support Plans">
                 </div><!--//.col-->
                 <div class="col-lg-6 order-lg-1">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Personalized Support Plans</h2>
+                    <h3 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Personalized Support Plans</h3>
                     <p class="text-dark text-center text-lg-start">
                         Creating a life where you feel in control starts with a plan—a plan that acknowledges your strengths, respects your challenges, and addresses your needs. Our team dedicates time to understand what independence means to you. From daily routines to personal goals, our support plans are as unique as the individuals we serve. We focus on enhancing your abilities, providing just the right level of assistance to encourage independence, not dependency. It's about striking the perfect balance that allows you to flourish.
                     </p>
@@ -245,10 +243,10 @@
             </div><!--//.row-->
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
+                    <img src="assets/images/assist-personal-activities/Promoting-Self-Esteem-and-Dignity.webp" class="img-fluid" width="624" height="416" alt="Promoting Self-Esteem and Dignity">
                 </div><!--//.col-->
                 <div class="col-lg-6">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Promoting Self-Esteem and Dignity</h2>
+                    <h3 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Promoting Self-Esteem and Dignity</h3>
                     <p class="text-dark text-center text-lg-start">
                         At the core of our service delivery is a profound respect for the dignity, self-esteem, and respect of every individual we assist. We believe that every person deserves to feel valued, heard, and seen, irrespective of the level of care they require. Our caregivers are trained to deliver services with a compassionate touch, ensuring that every interaction is filled with respect and understanding. Whether it’s lending a hand with daily tasks or providing companionship, our approach is always grounded in promoting your dignity and self-worth.
                     </p>
@@ -261,8 +259,8 @@
     <!-- Our Service Areas Start -->
     <section class="py-5" style="background-color: rgba(0, 153, 219, 0.10);">
         <div class="container">
-            <h2 class="fs-1 fw-semibold text-dark text-center mb-4">Our Service Areas</h2>
-            <p class="col-lg-9 mx-auto text-dark text-center">
+            <h2 class="fs-1 fw-semibold text-dark text-center mb-3">Our Service Areas</h2>
+            <p class="col-lg-11 mx-auto text-dark text-center mb-4">
                 At Feather Caring, we're proud to offer our bespoke care services across a variety of vibrant communities in Queensland. Our commitment is to ensure that no matter where you are, you can access the highest quality of personalized care that empowers and supports you to live your life to the fullest. Here's a closer look at the areas we serve:
             </p>
             <div class="row g-4 gx-lg-3">
@@ -313,60 +311,38 @@
     
     <!-- Meet Our Team Start -->
     <section class="py-5">
-        <div class="container">
-            <h2 class="fs-1 fw-semibold text-dark text-center mb-4">Meet Our Team</h2>
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
-                </div><!--//.col-->
-                <div class="col-lg-6 order-lg-1">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Trained and Certified Caregivers</h2>
-                    <p class="text-dark text-center text-lg-start">
-                        Dive into the essence of Feather Caring, where our team stands as the cornerstone of the compassionate and comprehensive care we are known for. Each caregiver in our fold brings a unique blend of training, certification, and a heartfelt dedication to the art of caring. They are the pillars who uphold our promise of safety, comfort, and unparalleled support, ensuring that feeling 'cared for' transcends beyond mere words for every individual we have the privilege to serve.
-                    </p>
-                </div><!--//.col-->
-            </div><!--//.row-->
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
-                </div><!--//.col-->
-                <div class="col-lg-6">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Our Values in Action</h2>
-                    <p class="text-dark text-center text-lg-start">
-                        At the very core of Feather Caring, our values of compassion, respect, and integrity breathe life into our mission. These are not just words we stand by; they are the principles that animate every interaction, every service, and every decision we make. Witness these values in action as our team engages with clients, fostering an environment where dignity is upheld, individuality is celebrated, and every person feels profoundly valued. This commitment to our ethos is what differentiates us, guiding our path as we set new standards in personalized care.
-                    </p>
-                </div><!--//.col-->
-            </div><!--//.row--> 
+        <div class="container pt-lg-4"> 
+            <div class="col-lg-5 float-lg-start me-lg-4 mb-4">
+                <img src="assets/images/assist-personal-activities/Trained-and-Certified-Caregivers.webp" class="img-fluid w-100" width="624" height="446" alt="Trained and Certified Caregivers">
+            </div><!--//.col-->
+            <h2 class="fs-1 fw-semibold mb-4">Meet Our Team</h2>
+            <h3 class="fs-3 fw-semibold text-lg-start mb-3">Trained and Certified Caregivers</h3>
+            <p class="text-dark">
+                Dive into the essence of Feather Caring, where our team stands as the cornerstone of the compassionate and comprehensive care we are known for. Each caregiver in our fold brings a unique blend of training, certification, and a heartfelt dedication to the art of caring. They are the pillars who uphold our promise of safety, comfort, and unparalleled support, ensuring that feeling 'cared for' transcends beyond mere words for every individual we have the privilege to serve.
+            </p>
+            <h3 class="fs-3 fw-semibold text-lg-start mb-3 mt-4">Our Values in Action</h3>
+            <p class="text-dark">
+                At the very core of Feather Caring, our values of compassion, respect, and integrity breathe life into our mission. These are not just words we stand by; they are the principles that animate every interaction, every service, and every decision we make. Witness these values in action as our team engages with clients, fostering an environment where dignity is upheld, individuality is celebrated, and every person feels profoundly valued. This commitment to our ethos is what differentiates us, guiding our path as we set new standards in personalized care.
+            </p>
         </div><!--//.container-->
     </section>
     <!-- Meet Our Team End -->
 
     <!-- Feather Caring Difference Start -->
-    <section class="py-5">
+    <section class="py-5 bg-gradient">
         <div class="container">
-            <h2 class="fs-1 fw-semibold text-dark text-center mb-4">Feather Caring Difference</h2>
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
-                </div><!--//.col-->
-                <div class="col-lg-6 order-lg-1">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3"> A Commitment to Excellence</h2>
-                    <p class="text-dark text-center text-lg-start">
-                        At the core of Feather Caring, excellence isn't just a goal; it's our foundational principle. We understand that delivering top-tier care goes beyond the basics—it's about elevating every aspect of our service to surpass expectations consistently. Our dedication to excellence is reflected in our meticulous attention to detail, from personalized care plans to the selection of our compassionate team members. We engage in rigorous continuous improvement processes, ensuring our practices, training, and services evolve to meet the highest standards of care. For us, excellence is a journey, not a destination, marked by our unwavering commitment to enhancing the lives of those we serve.
-                    </p>
-                </div><!--//.col-->
-            </div><!--//.row-->
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
-                </div><!--//.col-->
-                <div class="col-lg-6">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Continuous Improvement and Feedback</h2>
-                    <p class="text-dark text-center text-lg-start">
-                        The voice of our clients and their families is the compass that guides our journey of continuous improvement. We believe that the path to exceptional care is paved with the feedback, thoughts, and suggestions from those we have the privilege to serve. This open dialogue allows us to fine-tune our services, ensuring they remain aligned with the needs and expectations of our community. It's through your insights that we can innovate, adapt, and enhance our care experience, ensuring that Feather Caring not only meets but exceeds the standards of compassionate, quality care. Your feedback is the catalyst for our growth, driving us to continuously refine our services and uphold the Feather Caring difference.
-                    </p>
-                </div><!--//.col-->
-            </div><!--//.row--> 
+            <div class="col-lg-5 float-lg-end ms-lg-4 ms-xl-5 mb-4">
+                <img src="assets/images/assist-personal-activities/Commitment-to-Excellence.webp" class="img-fluid" width="624" height="446" alt="Commitment to Excellence">
+            </div><!--//.col-->
+            <h2 class="fs-1 fw-semibold mb-4">Feather Caring Difference</h2>
+            <h3 class="fs-3 fw-semibold text-lg-start mb-3"> A Commitment to Excellence</h3>
+            <p class="text-dark">
+                At the core of Feather Caring, excellence isn't just a goal; it's our foundational principle. We understand that delivering top-tier care goes beyond the basics—it's about elevating every aspect of our service to surpass expectations consistently. Our dedication to excellence is reflected in our meticulous attention to detail, from personalized care plans to the selection of our compassionate team members. We engage in rigorous continuous improvement processes, ensuring our practices, training, and services evolve to meet the highest standards of care. For us, excellence is a journey, not a destination, marked by our unwavering commitment to enhancing the lives of those we serve.
+            </p>
+            <h3 class="fs-3 fw-semibold text-lg-start mb-3 mt-4">Continuous Improvement and Feedback</h3>
+            <p class="text-dark">
+                The voice of our clients and their families is the compass that guides our journey of continuous improvement. We believe that the path to exceptional care is paved with the feedback, thoughts, and suggestions from those we have the privilege to serve. This open dialogue allows us to fine-tune our services, ensuring they remain aligned with the needs and expectations of our community. It's through your insights that we can innovate, adapt, and enhance our care experience, ensuring that Feather Caring not only meets but exceeds the standards of compassionate, quality care. Your feedback is the catalyst for our growth, driving us to continuously refine our services and uphold the Feather Caring difference.
+            </p>
         </div><!--//.container-->
     </section>
     <!-- Feather Caring Difference End --> 
@@ -394,52 +370,22 @@
     <!-- Getting Started with Feather Caring End --> 
 
     <!-- Consultation and Assessment Process Start -->
-    <section class="py-3 py-lg-4">
+    <section class="py-3 py-lg-4 bg-graident">
         <div class="container">
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
-                </div><!--//.col-->
-                <div class="col-lg-6 order-lg-1">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Consultation and Assessment Process</h2>
-                    <p class="text-dark text-center text-lg-start">
-                        Initiating care begins with our comprehensive consultation and assessment process. This pivotal step allows us to delve into understanding your unique needs, preferences, and lifestyle. We believe in listening intently and asking the right questions to capture the essence of what care means to you. This meticulous approach ensures that we lay a foundation for care that resonates with your personal story and aspirations, guaranteeing a transition to our services that feels natural and comforting.
-                    </p>
-                </div><!--//.col-->
-            </div><!--//.row-->  
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
-                </div><!--//.col-->
-                <div class="col-lg-6">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Creating Your Personal Care Plan</h2>
-                    <p class="text-dark text-center text-lg-start">
-                        In collaboration, we embark on creating a personal care plan that truly reflects your individual needs, goals, and dreams. Recognizing the dynamic nature of life, our plans are crafted to be as flexible and adaptable as you need them to be, allowing for adjustments and evolutions as your journey unfolds. This personalized blueprint is not just about addressing your care needs; it’s about enhancing your life, enabling you to achieve your aspirations and enjoy the quality of life you deserve.
-                    </p>
-                </div><!--//.col-->
-            </div><!--//.row-->  
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
-                </div><!--//.col-->
-                <div class="col-lg-6 order-lg-1">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Creating Your Personal Care Plan</h2>
-                    <p class="text-dark text-center text-lg-start">
-                        In collaboration, we embark on creating a personal care plan that truly reflects your individual needs, goals, and dreams. Recognizing the dynamic nature of life, our plans are crafted to be as flexible and adaptable as you need them to be, allowing for adjustments and evolutions as your journey unfolds. This personalized blueprint is not just about addressing your care needs; it’s about enhancing your life, enabling you to achieve your aspirations and enjoy the quality of life you deserve.
-                    </p>
-                </div><!--//.col-->
-            </div><!--//.row-->   
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/our-commitment.webp" class="img-fluid" width="624" height="379" alt="Our Commitment">
-                </div><!--//.col-->
-                <div class="col-lg-6">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Conclusion</h2>
-                    <p class="text-dark text-center text-lg-start">
-                        At Feather Caring, our dedication to enhancing the lives of those we serve remains at the heart of everything we do. From the personalized care plans crafted with your unique needs in mind to the compassionate and skilled support provided by our team, every aspect of our service is designed with your dignity, independence, and well-being as our top priorities. Our commitment extends beyond providing exceptional care—it's about enriching lives, fostering connections, and ensuring that every individual feels valued, respected, and supported. As we continue to navigate this journey together, Feather Caring stands as your partner in care, dedicated to making a positive difference in your life, every day.
-                    </p>
-                </div><!--//.col-->
-            </div><!--//.row-->   
+            <h3 class="fs-2 fw-semibold text-dark mb-3 mt-4 mt-lg-5">Consultation and Assessment Process</h3>
+            <p class="text-dark">
+                Initiating care begins with our comprehensive consultation and assessment process. This pivotal step allows us to delve into understanding your unique needs, preferences, and lifestyle. We believe in listening intently and asking the right questions to capture the essence of what care means to you. This meticulous approach ensures that we lay a foundation for care that resonates with your personal story and aspirations, guaranteeing a transition to our services that feels natural and comforting.
+            </p>
+
+            <h3 class="fs-2 fw-semibold text-dark mb-3 mt-4 mt-lg-5">Creating Your Personal Care Plan</h3>
+            <p class="text-dark">
+                In collaboration, we embark on creating a personal care plan that truly reflects your individual needs, goals, and dreams. Recognizing the dynamic nature of life, our plans are crafted to be as flexible and adaptable as you need them to be, allowing for adjustments and evolutions as your journey unfolds. This personalized blueprint is not just about addressing your care needs; it’s about enhancing your life, enabling you to achieve your aspirations and enjoy the quality of life you deserve.
+            </p>
+             
+            <h2 class="fs-2 fw-semibold text-dark mb-3 mt-4 mt-lg-5">Conclusion</h2>
+            <p class="text-dark">
+                At Feather Caring, our dedication to enhancing the lives of those we serve remains at the heart of everything we do. From the personalized care plans crafted with your unique needs in mind to the compassionate and skilled support provided by our team, every aspect of our service is designed with your dignity, independence, and well-being as our top priorities. Our commitment extends beyond providing exceptional care—it's about enriching lives, fostering connections, and ensuring that every individual feels valued, respected, and supported. As we continue to navigate this journey together, Feather Caring stands as your partner in care, dedicated to making a positive difference in your life, every day.
+            </p>
         </div><!--//.container-->
     </section>
     <!-- Consultation and Assessment Process End --> 
