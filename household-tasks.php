@@ -32,33 +32,17 @@
     <!-- WELCOME TO FEATHER CARING start -->
     <section class="py-5 feather__caring">
         <div class="container">
-            <div class="row g-4 g-xxl-5">
-                <div class="col-lg-7">
+            <div class="row g-1 g-xxl-5">
+                <div class="col-lg-6">
                     <h1 class="fs-3 text-dark fw-semibold text-uppercase">
                         <span class="lead text-primary fw-semibold d-block mb-0">WELCOME TO FEATHER CARING</span>
                         Your Partner in Home Care Excellence
-                    </h1>
-                    <div class="d-flex align-items-center position-relative d-none d-lg-block">
-                        <div class="circle__1 position-absolute circle rounded-circle">
-                            <img src="assets/images/patient/patient-01.webp" class="img-fluid patient__thumb object-cover rounded-circle" alt="Patient thumb">
-                        </div>
-                        <div class="circle__2 position-absolute circle rounded-circle">
-                            <img src="assets/images/patient/patient-02.webp" class="img-fluid patient__thumb object-cover rounded-circle" alt="Patient thumb">
-                        </div>
-                        <div class="circle__3 position-absolute circle rounded-circle">
-                            <img src="assets/images/patient/patient-03.webp" class="img-fluid patient__thumb object-cover rounded-circle" alt="Patient thumb">
-                        </div> 
-                        <div class="border_right position-absolute"></div>
-                        <div class="content__position text-primary lead fw-semibold position-absolute">2800+ SATISFIED PATIENTS</div>
-                    </div>   
+                    </h1> 
                 </div><!--//.col-->
-                <div class="col-lg-5">
+                <div class="col-lg-6">
                     <p class="text-dark mb-3 mb-lg-4">
                         Welcome to a world where care meets comfort, and your household tasks are managed by experts who truly understand your needs. At Feather Caring, we extend our services across Logan, Brisbane, Scenic Rim, and the Gold Coast, bringing personalized care right to your doorstep.
-                    </p>
-                    <div class="text-center text-lg-start">
-                        <a href="about.php" class="btn btn-primary height fw-semibold px-5 py-3 rounded-pill" aria-label="GET STARTED">GET STARTED</a> 
-                    </div>
+                    </p> 
                 </div><!--//.col-->
             </div><!--//.row-->
             <?php include_once("includes/page-gallery-section.inc.php"); ?> 
@@ -67,7 +51,7 @@
     <!-- WELCOME TO FEATHER CARING End -->
 
     <!-- Introduction to Feather Caring Start -->
-    <section class="py-5">
+    <section class="py-3 py-md-4 py-lg-5">
         <div class="container">
             <h2 class="fs-1 fw-semibold text-dark text-center mb-3">Introduction to Feather Caring</h2>
             <p class="text-dark text-center mb-4 mb-lg-5">

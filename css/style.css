@@ -3,6 +3,9 @@
 .header__wrapper {
   background-color: rgba(0, 153, 219, 0.1);
 }
+.header__wrapper .container__wraper {
+  padding-top: 7rem;
+}
 .header__wrapper .h1 {
   line-height: 1;
 }
@@ -44,19 +47,10 @@
   }
 }
 @media (max-width: 575px) {
-  .fs-2, .fs-3 {
-    font-size: 1.25rem !important;
-    line-height: 1.2;
-  }
   .lead {
     font-size: 1rem !important;
     line-height: 1.2;
     margin-bottom: 0.5rem !important;
-  }
-}
-@media (max-width: 575px) {
-  .fs-1 {
-    font-size: 1.5rem !important;
   }
 }
 .servicesCarousel .owl-stage-outer {
