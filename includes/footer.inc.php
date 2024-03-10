@@ -8,14 +8,13 @@
             <div class="row g-3 justify-content-between">
                 <div class="col-lg-5 col-md-6">   
                     <div class="text-center text-md-start me-lg-5">
-                        <div class="logo__box mb-3">
-                            <img class="img-fluid" width="298" height="124" src="assets/images/footer-logo.webp" alt="logo">
-                        </div>
+                        <a href="<?php echo $base_url; ?>" class="logo mb-3" aria-label="<?php echo $site_name; ?>" title="<?php echo $site_name; ?>">
+                            <img class="img-fluid" width="298" height="124" src="assets/images/footer-logo.webp" alt="<?php echo $site_name; ?>">
+                        </a>
                         <p class="text-white">
                             Welcome to Feather Caring, where we believe in nurturing lives with compassion and expertise. Nestled in the heart of Park Ridge, and extending our wings to Brisbane and Gold Coast,
                         </p>
-                        <div class="mt-4">  
-                                
+                        <div class="mt-4">   
                             <?php include_once('includes/_social-links.inc.php'); ?>  
                         </div> 
                     </div>    
@@ -61,7 +60,7 @@
             <div class="container-fluid"> 
                 <div class="row g-2 align-items-center"> 
                     <div class="col-md-12"> 
-                        <div class="text-center mb-0 text-white fw-medium">© 2024 care allies | Designed by <a href="https://techpullers.com/website-dev.php" target="_blank" class="d-inline text-white"> Techpullers</a></div>
+                        <div class="text-center mb-0 text-white fw-medium">© <?php echo date('Y');?> Feathure Caring | Designed by <a href="https://techpullers.com/website-dev.php" target="_blank" class="d-inline text-white"> Techpullers</a></div>
                     </div>
                 </div><!--//.row--> 
             </div>

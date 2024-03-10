@@ -140,7 +140,7 @@
         <div class="container-fluid px-0">
             <div class="row g-0">
                 <div class="col-lg-6">
-                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100 h-100" width="906" height="495" alt="home care services"> 
+                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100 h-100 object-cover" width="906" height="495" alt="home care services"> 
                 </div><!--//.col-->
                 <div class="col-lg-6">
                     <div class="img__card h-100 d-flex align-items-center justify-content-center" style="background-color: #3BA9E2;">
@@ -165,80 +165,67 @@
     <!-- Why Choose Feather Caring End -->
 
     <!-- Meet Our Expert Team Start -->
-    <section class="py-3 mb-3 mb-lg-5">
-        <div class="container">
+    <section class="py-5">
+        <div class="container"> 
+            <h2 class="fs-1 fw-semibold text-dark text-center mb-3">Meet Our Expert Team</h2>
+            <p class="text-dark text-center col-lg-8 mx-auto ">
+                At the core of Feather Caring lies our team - a blend of highly qualified and compassionate nurses dedicated to making a real difference in the lives of those they care for. It’s their skill, dedication, and heartfelt commitment to our clients that set us apart in the realm of community nursing services.
+            </p>
+
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="Meet Our Expert Team"> 
+                <div class="col-lg-5">
+                    <img 
+                    srcset="assets/images/community-nursing/qualified-and-compassionate-sm.webp 575w,
+                    assets/images/community-nursing/qualified-and-compassionate.webp?v=2 1200w" 
+                    src="assets/images/community-nursing/qualified-and-compassionate.webp?v=2" 
+                    class="img-fluid" width="624" height="409" alt="Qualified and Compassionate">
                 </div><!--//.col-->
-                <div class="col-lg-6 order-lg-1">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Meet Our Expert Team</h2>
-                    <p class="text-dark text-center text-lg-start">
-                        At the core of Feather Caring lies our team - a blend of highly qualified and compassionate nurses dedicated to making a real difference in the lives of those they care for. It’s their skill, dedication, and heartfelt commitment to our clients that set us apart in the realm of community nursing services.
-                    </p>
-                </div><!--//.col-->
-            </div><!--//.row-->
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/qualified-and-compassionate.webp" class="img-fluid" width="624" height="409" alt="Qualified and Compassionate">
-                </div><!--//.col-->
-                <div class="col-lg-6">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Qualified and Compassionate Nurses</h2>
-                    <p class="text-dark text-center text-lg-start mn-0">
+                <div class="col-lg-7">
+                    <h3 class="fs-2 fw-semibold text-dark mb-2">Qualified and Compassionate Nurses</h3>
+                    <p class="text-dark">
                         Our stringent selection process ensures that each member of our team not only meets but exceeds the standards of qualification and experience required in the healthcare sector. Yet, what truly defines our team is their compassion and dedication. They're not just healthcare providers; they are caring companions, advocates for health, and unwavering supporters of our clients and their families. This perfect blend of professional excellence and genuine care ensures that every interaction with Feather Caring is both beneficial and enriching.
                     </p>
-                </div><!--//.col-->
-            </div><!--//.row-->
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/community-nursing/ongoing-professional-development.webp" class="img-fluid" width="624" height="436" alt="Ongoing Professional Development">
-                </div><!--//.col-->
-                <div class="col-lg-6 order-lg-1">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start">Ongoing Professional Development</h2>
-                    <p class="text-dark text-center text-lg-start">
+
+                    <h3 class="fs-2 fw-semibold text-dark mt-4 mb-2">Ongoing Professional Development</h3>
+                    <p class="text-dark">
                         In the rapidly evolving field of healthcare, staying current is not just an advantage but a necessity. At Feather Caring, we invest in the continuous professional development of our team, embracing the latest in healthcare innovations, techniques, and practices. This commitment to education ensures that our team is always equipped with cutting-edge knowledge and skills to provide the best possible care.
                     </p>
-                    <p class="text-dark text-center text-lg-start">
+                    <p class="text-dark">
                         Our dedication to ongoing learning fosters an environment of growth, not just for our team but for our clients too. As we evolve, we bring our clients along on a journey towards better health outcomes, informed by the latest research and best practices in community nursing. This approach not only enhances the quality of care we provide but also reinforces our commitment to excellence in every aspect of our service.
-                    </p>
-                </div><!--//.col-->
-            </div><!--//.row-->
-        </div><!--//.container-->
-    </section>
-    <!-- Meet Our Expert Team End -->
-
-    <!-- Tailored Care for the Logan start -->
-    <section class="" style="background-color: rgba(0, 153, 219, 0.10);">
-        <div class="container">
-            <div class="row g-4 g-lg-0 gx-4 gx-lg-5 align-items-center">
-                <div class="col-lg-6">
-                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="Tailored Care for the Logan"> 
-                </div><!--//.col-->
-                <div class="col-lg-6">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">
-                        Tailored Care for the Logan, Brisbane, Scenic Rim, and Gold Coast Communities
-                    </h2>
-                    <p class="text-dark text-center text-lg-start mb-0">
-                        Feather Caring is deeply rooted in the heart of the Logan, Brisbane, Scenic Rim, and Gold Coast communities. Our services are not just about providing care; they're about offering support that resonates with the unique fabric of each community we touch. Our approach goes beyond the conventional, as we weave cultural competence and sensitivity into every aspect of our care.
                     </p>
                 </div><!--//.col-->
             </div><!--//.row-->
             
         </div><!--//.container-->
     </section>
-    <!-- Tailored Care for the Logan End -->
+    <!-- Meet Our Expert Team End -->
+ 
 
     <!-- Understanding Local Needs start -->
-    <section class="pt-3">
+    <section class="py-5">
         <div class="container">
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="Tailored Care for the Logan"> 
+            <h2 class="fs-1 fw-semibold text-dark text-center mb-3">Tailored Care for the Logan, Brisbane, Scenic Rim, and Gold Coast Communities</h2>
+            <p class="text-dark text-center col-lg-10 mx-auto ">
+                Feather Caring is deeply rooted in the heart of the Logan, Brisbane, Scenic Rim, and Gold Coast communities. Our services are not just about providing care; they're about offering support that resonates with the unique fabric of each community we touch. Our approach goes beyond the conventional, as we weave cultural competence and sensitivity into every aspect of our care.
+            </p>
+
+            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3 text-center text-lg-start">
+                <div class="col-lg-5 order-lg-2">
+                    <img 
+                    srcset="assets/images/community-nursing/Understanding-Local-Needs-sm.webp 575w,
+                    assets/images/community-nursing/Understanding-Local-Needs.webp 1200w" 
+                    src="assets/images/community-nursing/Understanding-Local-Needs.webp" 
+                    class="img-fluid w-100" width="624" height="422" alt="Tailored Care for the Logan"> 
                 </div><!--//.col-->
-                <div class="col-lg-6 order-lg-1">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3"> Understanding Local Needs</h2>
-                    <p class="text-dark text-center text-lg-start">
+                <div class="col-lg-7 order-lg-1">
+                    <h2 class="fs-2 fw-semibold text-dark mb-2"> Understanding Local Needs</h2>
+                    <p class="text-dark">
                         In every community we serve, we take the time to understand the specific needs and challenges faced by our clients. This isn't a one-size-fits-all service. It's a deeply personalized journey, where care is not just effective but is crafted with an intimate understanding of the local context. Whether it's navigating the healthcare landscape or addressing specific community health issues, our goal is to provide care that is both impactful and respectful of the individual's environment.
+                    </p>
+
+                    <h2 class="fs-2 fw-semibold text-dark mb-2 mt-4">Cultural Competence and Diverse Care</h2>
+                    <p class="text-dark">
+                        At Feather Caring, diversity is not just acknowledged; it's celebrated. Our team is trained in cultural competence, ensuring that we provide care with a deep respect for the cultural, linguistic, and personal values of each client. We understand that health and well-being are influenced by a range of cultural factors, and our care plans are designed to honor and accommodate these differences. From language preferences to cultural practices, we strive to make every client feel seen, heard, and valued.
                     </p>
                 </div><!--//.col-->
             </div><!--//.row-->  
@@ -246,42 +233,15 @@
     </section>
     <!-- Understanding Local Needs End --> 
 
-    <!-- Cultural Competence and Diverse Care start -->
-    <section class="py-5">
-        <div class="big__wraper d-flex align-items-center position-relative">  
-            <img src="assets/images/community-nursing/water-img-bg.webp" alt="All Electronic Products" class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0">
-            
-            <div class="container">
-                <div class="row g-4 g-lg-0 gx-4 gx-lg-5 align-items-center">
-                    <div class="col-lg-6">
-                        <img src="assets/images/community-nursing/cultural-competence.webp" class="img-fluid w-100" width="624" height="379" alt="Our Commitment">
-                    </div><!--//.col-->
-                    <div class="col-lg-6">
-                        <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Cultural Competence and Diverse Care</h2>
-                        <p class="text-dark text-center text-lg-start">
-                            At Feather Caring, diversity is not just acknowledged; it's celebrated. Our team is trained in cultural competence, ensuring that we provide care with a deep respect for the cultural, linguistic, and personal values of each client. We understand that health and well-being are influenced by a range of cultural factors, and our care plans are designed to honor and accommodate these differences. From language preferences to cultural practices, we strive to make every client feel seen, heard, and valued.
-                        </p> 
-                    </div><!--//.col-->
-                </div><!--//.row-->
-            </div> 
-        </div>
-    </section>
-    <!-- Cultural Competence and Diverse Care End --> 
+     
 
     <!-- The Feather Caring Difference start -->
-    <section class="">
-        <div class="container">
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center">
-                <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="The Feather Caring Difference"> 
-                </div><!--//.col-->
-                <div class="col-lg-6 order-lg-1">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">The Feather Caring Difference</h2>
-                    <p class="text-dark text-center text-lg-start">
-                        At Feather Caring, we pride ourselves on being more than just a service provider; we are a partner in your health journey, one that you can rely on without hesitation. Our dedication to upholding the highest standards of quality and safety is unwavering, making us a trustworthy and reliable choice for community nursing services.
-                    </p>
-                </div><!--//.col-->
-            </div><!--//.row-->
+    <section class="py-5">
+        <div class="container"> 
+            <h2 class="fs-1 fw-semibold text-dark text-center mb-3">The Feather Caring Difference</h2>
+            <p class="text-dark text-center col-lg-9 mx-auto ">
+                At Feather Caring, we pride ourselves on being more than just a service provider; we are a partner in your health journey, one that you can rely on without hesitation. Our dedication to upholding the highest standards of quality and safety is unwavering, making us a trustworthy and reliable choice for community nursing services.
+            </p>
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
                 <div class="col-lg-6">
                     <img src="assets/images/community-nursing/trustworthy-and-reliable.webp" class="img-fluid w-100" width="624" height="416" alt="A Trustworthy and Reliable">
@@ -330,41 +290,33 @@
 
     <!-- Seamless Access to Our Services Start -->
     <section class="py-5">
-        <div class="container">
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center">
-                <div class="col-lg-6">
-                    <img src="assets/images/community-nursing/seamless-access.webp" class="img-fluid w-100" width="624" height="417" alt="Seamless Access to Our Services">
-                </div><!--//.col-->
-                <div class="col-lg-6">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Seamless Access to Our Services</h2>
-                    <p class="text-dark text-center text-lg-start">
-                        At Feather Caring, we're committed to ensuring that accessing our comprehensive care services is as straightforward and stress-free as possible. From the moment you reach out to us, we're here to guide you through each step, making the journey towards receiving care smooth and simple.
-                    </p>
-                </div><!--//.col-->
-            </div><!--//.row--> 
+        <div class="container pt-lg-4">
+            <h2 class="fs-1 fw-semibold text-dark text-center mb-3">Seamless Access to Our Services</h2>
+            <p class="text-dark text-center col-lg-9 mx-auto ">
+                At Feather Caring, we're committed to ensuring that accessing our comprehensive care services is as straightforward and stress-free as possible. From the moment you reach out to us, we're here to guide you through each step, making the journey towards receiving care smooth and simple.
+            </p>
+
             <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="The Feather Caring Difference"> 
+                <div class="col-lg-5 order-lg-2">
+                    <img 
+                    srcset="assets/images/community-nursing/Easy-Steps-to-Get-Started-sm.webp 575w,
+                    assets/images/community-nursing/Easy-Steps-to-Get-Started.webp 1200w" 
+                    src="assets/images/community-nursing/Easy-Steps-to-Get-Started.webp" 
+                    class="img-fluid w-100" width="624" height="422" alt="Easy Steps to Get Started"> 
                 </div><!--//.col-->
-                <div class="col-lg-6 order-lg-1">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Easy Steps to Get Started</h2>
-                    <p class="text-dark text-center text-lg-start">
+                <div class="col-lg-7 order-lg-1">
+                    <h2 class="fs-2 fw-semibold text-dark mb-2">Easy Steps to Get Started</h2>
+                    <p class="text-dark">
                         Starting your journey with Feather Caring begins with a simple phone call or message. Once you contact us, you'll be greeted by our friendly team who are dedicated to understanding your unique needs. We pride ourselves on our personalized approach; from the initial consultation, we listen attentively to your concerns and preferences to craft a care plan that’s perfectly tailored to you. This process is designed to be not only easy but also empowering, giving you and your loved ones the confidence and clarity you need.
                     </p>
-                </div><!--//.col-->
-            </div><!--//.row--> 
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
-                <div class="col-lg-6">
-                    <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="The Feather Caring Difference"> 
-                </div><!--//.col-->
-                <div class="col-lg-6">
-                    <h2 class="fs-2 fw-semibold text-dark text-center text-lg-start mb-3">Understanding Your Funding Options</h2>
-                    <p class="text-dark text-center text-lg-start">
+                    <h2 class="fs-2 fw-semibold text-dark mb-2 mt-4">Understanding Your Funding Options</h2>
+                    <p class="text-dark">
                         Navigating the world of funding options for care can often seem daunting, but with Feather Caring, it doesn't have to be. Our team is well-versed in the various funding avenues available, from government programs like the NDIS to private health insurance and beyond. We're here to demystify the process for you, offering clear, straightforward advice to ensure you can access the care you need without the worry of financial strain.
                     </p>
                 </div><!--//.col-->
             </div><!--//.row--> 
-            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-3">
+             
+            <div class="row g-4 gx-4 gx-lg-5 align-items-center mt-5">
                 <div class="col-lg-6 order-lg-2">
                     <img src="assets/images/home/home-care-services.webp" class="img-fluid w-100" width="624" height="422" alt="The Feather Caring Difference"> 
                 </div><!--//.col-->
@@ -380,14 +332,14 @@
     <!-- Seamless Access to Our Services End -->
 
     <!-- FAQ'S section Start -->
-    <section>
+    <section class="py-5">
         <div class="container">
             <div class="col-lg-9 mx-auto">
                 <h2 class="fs-1 fw-semibold text-dark text-center mb-4">Frequently Asked Questions</h2>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item rounded-0 border-0">
                         <h3 class="accordion-header" id="headingOne">
-                            <button class="accordion-button text-dark fw-normal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 How do I know if I'm eligible for community nursing services?
                             </button>
                         </h3>
@@ -401,7 +353,7 @@
                     </div>
                     <div class="accordion-item rounded-0 border-0">
                         <h3 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed text-dark fw-normal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Can Feather Caring provide services to individuals with complex health conditions?
                             </button>
                         </h3>
@@ -415,7 +367,7 @@
                     </div>
                     <div class="accordion-item rounded-0 border-0">
                         <h3 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed text-dark fw-normal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 How does Feather Caring ensure the quality of its caregivers and nurses?
                             </button>
                         </h3>
@@ -429,7 +381,7 @@
                     </div>
                     <div class="accordion-item rounded-0 border-0">
                         <h3 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed text-dark fw-normal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 What makes Feather Caring different from other community nursing services?
                             </button>
                         </h3>
@@ -443,7 +395,7 @@
                     </div> 
                     <div class="accordion-item rounded-0 border-0">
                         <h3 class="accordion-header" id="headingFive">
-                            <button class="accordion-button collapsed text-dark fw-normal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 How can I access Feather Caring's services?
                             </button>
                         </h3>
@@ -462,33 +414,9 @@
     <!-- FAQ'S section End --> 
    
     <!-- FEEDBACKS section Start -->
-    <section class="py-4 py-lg-5 plaholder__testi">
-        <div class="container mt-lg-4">
-            <div class="text-center">
-                <p class="lead text-primary fw-semibold mb-0">FEEDBACKS</p>
-                <h2 class="fs-1 text-27 fw-semibold mb-4">Stories From Our Patients</h2>
-            </div>
-            <div class="col-lg-10 position__img ps-0 pb-0 ps-lg-5 pb-lg-5 d-flex align-items-end justify-content-center mx-auto" style="background: url(assets/images/home/testi-bg-thumbnail.webp) no-repeat center center / cover;
-            box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.41);">
-                <!-- <div class="owl-carousel testimonialSlider"></div>  -->
-                <div class="testi__box col-lg-7 me-auto" style="background-color: #3BA9E2;">
-                    <div class="d-flex align-items-center gap-4 mb-2">
-                        <img class="img-fluid" width="97" height="97" src="assets/images/testimonial/client-thumb.webp" alt="client thumb">
-                        <div class="client__box">
-                            <span class="d-block fs-4 text-white fw-medium">Labin</span>
-                            <span class="d-block fs-15 text-white fw-medium">Dubai</span>
-                        </div>
-                    </div>
-                    <p class="text-white fs-15">
-                        “I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.I’m delighted to inform that M’s blood test were normal and there was no thyroid alteration any longer. We are so happy! Thank you for your amazing work.”
-                    </p>
-                </div> 
-            </div><!--//.col-lg-10-->
-        </div><!--//.container-->
-    </section>
+    <?php include_once("includes/testimonial-section.inc.php"); ?>
     <!-- FEEDBACKS section End -->
-   
-
+    
     <!-- Footer and Script List --> 
     <?php $folder='root'; include_once('includes/footer.inc.php'); ?>  
    
