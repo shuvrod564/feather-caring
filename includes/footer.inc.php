@@ -23,12 +23,12 @@
                     <div class="custom ps-xl-4 text-center text-md-start">
                         <p class="lead-lg text-white fw-semibold mb-4">Services</p> 
                         <ul class="link">
-                            <li class="mb-2"><a class="text-white" href="#"> Community Nursing </a></li>
-                            <li class="mb-2"><a class="text-white" href="#">Assist Personal Activities:</a></li>
-                            <li class="mb-2"><a class="text-white" href="#">High Intensity Daily Personal Activities</a></li> 
-                            <li class="mb-2"><a class="text-white" href="#">Household Tasks</a></li> 
-                            <li class="mb-2"><a class="text-white" href="#">Community Participation </a></li> 
-                            <li class="mb-2"><a class="text-white" href="#">Short Term Accommodation</a></li> 
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>community-nursing.php"> Community Nursing </a></li>
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>assist-personal-activities.php">Assist Personal Activities</a></li>
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>high-intensity-daily-activities.php">High Intensity Daily Personal Activities</a></li> 
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>household-tasks.php">Household Tasks</a></li> 
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>community-participation.php">Community Participation </a></li> 
+                            <li class="mb-2"><a class="text-white" href="<?php echo $base_url;?>short-term-accommodation.php">Short Term Accommodation</a></li> 
                         </ul> 
                     </div>   
                 </div><!--//.col-->
